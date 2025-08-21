@@ -1,0 +1,85 @@
+🔹 1. Recap of Session 3
+• Links using anchor tag
+• Image insertion with img tag
+• Attributes like href, src, alt, title, width, height
+• Creating ordered and unordered lists
+• Nesting lists and combining with links/images
+
+🔹 2. Introduction to HTML Tables
+Concepts to Cover:
+• What tables are used for (e.g., schedules, pricing, data)
+• Why not to use tables for page layout
+• Real-world use cases: dashboards, comparison charts
+
+🔹 3. Basic Table Structure
+Concepts to Cover:
+• table – defines the full table
+• tr – defines a row
+• td – defines a standard data cell
+• th – defines a header cell
+
+Examples:
+• Simple table with 2 rows and 2 columns
+• Use th for headings and td for data
+
+🔹 4. Table Attributes and Modern Styling
+Concepts to Cover:
+• Old HTML attribute: border="1" (deprecated)
+• Modern way: use CSS styling
+• Introduce padding, spacing using CSS
+• border-collapse: collapse
+
+Examples:
+• Inline CSS for styling cells
+• Spacing between cells using border-spacing
+
+🔹 5. Merging Cells with Colspan and Rowspan
+Concepts to Cover:
+• colspan – merge columns
+• rowspan – merge rows
+• Where and why to use merged cells
+
+Examples:
+• Timetable or calendar layout
+• Table header spanning multiple columns
+
+🔹 6. Semantic Table Sections
+Concepts to Cover:
+• thead – for heading rows
+• tbody – for main content
+• tfoot – for summary or total rows
+• Benefits of semantic structure (readability, accessibility)
+
+Examples:
+• Table divided into thead, tbody, and tfoot
+• Simple total row using colspan
+
+🔹 7. Intro to Table Styling with CSS
+Concepts to Cover:
+• Setting table width and alignment
+• Applying padding to cells
+• Styling header row background
+• Adding hover effects on rows using :hover
+
+Examples:
+• Highlight row on mouse hover
+• Colorful header using background-color
+
+🔹 8. Practice Activity – "Student Marks Table"
+Task:
+• Create a table with headings: Name, Subject, Marks
+• Add at least 3 rows of data
+• Use colspan in the footer row labeled “Total”
+• Style with borders, padding, and row hover
+
+🔹 9. Wrap-up + Q&A
+Summary:
+• Built structured tables using table, tr, td, th
+• Learned how to merge cells using colspan and rowspan
+• Organized table content with thead, tbody, tfoot
+• Styled tables using CSS
+
+Next Session Preview:
+• HTML Forms
+• Collecting user input with labels, inputs, checkboxes, radio buttons, submit buttons
+

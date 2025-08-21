@@ -1,0 +1,104 @@
+Session 17: Git & GitHub Basics
+
+🔸 1. Recap of Session 16
+• Reviewed pseudo-classes like hover, focus, active, and nth-child.
+• Learned pseudo-elements ::before and ::after for decorative content.
+• Practiced interactive button and card hover effects.
+• Explored best practices for styling states in UI components.
+
+🔸 2. Introduction to Git & GitHub
+• Git is a version control system that tracks changes in your projects.
+• GitHub is an online platform to host Git repositories, collaborate, and share code.
+• Git helps manage project history, while GitHub acts as the online storage and collaboration hub.
+
+👉 Real-Life Example: Writing a school project. Git saves different drafts (versions), GitHub is like Google Drive where you upload and share with friends or teachers.
+
+🔸 3. Creating a GitHub Account
+• Go to github.com → Sign Up → Enter username, email, and password.
+• Verify email to activate your account.
+• GitHub account is required to host repositories online.
+
+👉 Example: Just like you need a social media account to share photos, you need a GitHub account to share projects.
+
+🔸 4. Installing Git on Your Computer
+• Windows: Download from git-scm.com and install.
+• macOS: Install using Homebrew (brew install git).
+• Linux: Use terminal (sudo apt install git).
+• Verify installation: git --version.
+
+👉 Example: Installing Git is like installing Microsoft Word before you can start writing documents.
+
+🔸 5. Setting Up Git (First-Time Config)
+• Run:
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+• Check with: git config --list.
+
+👉 Example: Like writing your name and email on a school project so everyone knows it’s yours.
+
+🔸 6. Linking Git with GitHub (SSH Method)
+• Generate SSH key: ssh-keygen -t rsa -b 4096 -C "your-email@example.com".
+• Copy key: cat ~/.ssh/id_rsa.pub.
+• Add to GitHub → Settings → SSH Keys → New Key.
+• Test: ssh -T git@github.com.
+
+👉 Example: SSH key is like having a house key — you don’t need to enter a password every time you visit.
+
+🔸 7. Creating a Repository on GitHub
+• Click New Repository → Give it a name (e.g., my-first-project).
+• Choose Public or Private → Create.
+
+👉 Example: A repository is like a folder in Google Drive for storing and sharing files.
+
+🔸 8. Connecting Local Git Project to GitHub Repo
+• In your project folder:
+git init
+• Link remote repo:
+git remote add origin git@github.com:username/my-first-project.git
+
+👉 Example: Like linking your PC folder with Google Drive for syncing.
+
+🔸 9. First Commit and Push
+• Stage files: git add .
+• Commit: git commit -m "First commit"
+• Push:
+git branch -M main
+git push -u origin main
+
+👉 Example: Saving your draft locally (commit) and uploading it to Google Drive (push).
+
+🔸 10. Practical Example
+Project: Portfolio Website
+• Create folder portfolio.
+• Add index.html.
+• Commit changes.
+• Push to GitHub repo portfolio-site.
+
+Now the project is online and sharable with others.
+
+🔸 11. Tips & Best Practices
+• Commit often with meaningful messages.
+• Use .gitignore for unnecessary files.
+• Always pull (git pull origin main) before pushing when working in teams.
+
+🔸 12. Practice Activity
+Task:
+• Create a repo my-practice-repo.
+• Add file notes.txt with some text.
+• Commit and push to GitHub.
+
+Bonus:
+• Edit notes.txt directly on GitHub and pull changes locally.
+
+🔸 13. Wrap-up + Q&A
+• Learned what Git and GitHub are.
+• Created GitHub account and installed Git.
+• Configured Git with username and email.
+• Linked Git and GitHub using SSH.
+• Practiced committing and pushing a project.
+
+🔸 Next Session Preview (Session 18)
+• Introduction to Bootstrap Framework.
+• Installing and setting up Bootstrap.
+• Understanding responsive grid system.
+• Using Bootstrap components like navbar, cards, and buttons.

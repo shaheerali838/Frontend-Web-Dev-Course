@@ -1,0 +1,65 @@
+🔸 1. Recap of Session 12
+• Reviewed CSS transitions, animations, and transforms.
+• Learned the difference between transitions (state changes) and animations (continuous/multi-step).
+• Practiced using @keyframes, animation properties, and timing functions.
+• Explored 2D and 3D transforms: translate, scale, rotate, skew, rotateX, rotateY, perspective.
+• Built hover effects.
+• Discussed performance tips — using transforms and opacity for smoother results.
+
+🔸 2. CSS Variables (Custom Properties)
+• Allow defining reusable values with a --variable-name format.
+• Help maintain consistency across colors, fonts, and spacing.
+• Support inheritance — variables in parent elements cascade to children.
+• Easily updated for global design changes or theming.
+
+...
+• Can be manipulated dynamically with JavaScript for interactivity.
+...
+
+
+🔸 3. Dark Mode Implementation
+• Dark mode enhances readability in low-light environments.
+• Achieved by swapping variable values for background, text, and accents.
+• Can be applied based on user preference (prefers-color-scheme) or toggle switch.
+• Improves accessibility and provides user-friendly UI.
+• Relies on CSS variables to efficiently manage multiple themes.
+
+🔸 4. Modern CSS Features
+• clamp() — sets min, preferred, and max values for responsive sizing.
+• min() / max() — define flexible constraints for layout and typography.
+• aspect-ratio — keeps consistent element proportions (useful for images/videos).
+• backdrop-filter — applies blur, brightness, or transparency effects behind elements.
+
+🔸 5. Practical Applications
+• Create a color system using CSS variables for primary, secondary, and accent colors.
+• Implement dark mode by overriding variables.
+• Use clamp() to make text responsive.
+• Build layouts with aspect-ratio and object-fit for consistent visuals.
+
+🔸 6. Tips & Best Practices
+• Use meaningful names (e.g., --primary-color instead of --c1).
+• Keep dark mode accessible with proper color contrast.
+• Don’t overuse filters/backdrop-filter — they can impact performance.
+• Use modern CSS features progressively with fallbacks for older browsers.
+• Keep animations subtle when combined with theme switching.
+
+🔸 7. Practice Activity
+Task: Build a “CSS Variables & Dark Mode Showcase” page
+• Section 1: Define global color variables for text, backgrounds, and accents.
+• Section 3: Experiment with clamp() for responsive text sizing.
+• Section 4: Create an image gallery with aspect-ratio and object-fit.
+
+Bonus Task:
+• Add a frosted glass effect using backdrop-filter for a header or card.
+
+🔸 8. Wrap-up + Q&A
+• Learned how CSS variables simplify theme management.
+• Practiced implementing dark mode with variables.
+• Explored modern CSS features like clamp, aspect-ratio.
+• Discussed accessibility and performance best practices.
+
+🔸 Next Session Preview (Session 14)
+• Floats, Shadows, and Filters.
+• Using floats for layouts (and their limitations).
+• Creating depth with box-shadows and text-shadows.
+• Apply backdrop-filter for stylish overlays.

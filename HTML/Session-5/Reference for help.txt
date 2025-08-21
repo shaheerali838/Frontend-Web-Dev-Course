@@ -1,0 +1,76 @@
+🔹 1. Recap of Session 4
+• Covered HTML tables
+• Table structure using table, row, header, and data tags
+• Merging cells using colspan and rowspan
+• Table sections: thead, tbody, tfoot
+• Practice activity: Student Marks Table
+
+🔹 2. Introduction to HTML Forms
+Concepts to cover:
+• Purpose of HTML forms in web development
+• Real-world use cases like login forms, contact pages, and surveys
+• Basic understanding of how forms collect and send user input
+
+🔹 3. Basic Input Elements
+Concepts to cover:
+• Text input for entering general text
+• Email input for capturing email addresses
+• Password input to hide entered characters
+• Number input to allow only numeric values
+• Attributes like placeholder, value, required, and maxlength
+• Using labels to describe input fields
+• Connecting labels with input fields using id and for values
+
+Tips:
+• Importance of using labels for accessibility
+• Enhancing user experience with proper field instructions
+
+🔹 4. Other Input Types
+Concepts to cover:
+• Radio buttons to select one option from a group
+• Checkboxes to select multiple options
+• Grouping radio buttons using the same name value
+
+Examples to try:
+• Gender selection using radio buttons
+• Selecting hobbies or interests using checkboxes
+
+🔹 5. Textarea and Select Dropdowns
+Concepts to cover:
+• Textarea for multi-line input such as feedback or comments
+• Select dropdown to show a list of predefined choices
+• Options inside select and selecting a default option
+
+Examples to try:
+• Feedback box using textarea
+• Country selection using a dropdown list
+
+🔹 6. Submit, Reset, and Button Elements
+Concepts to cover:
+• Submit button to send the form data
+• Reset button to clear all fields in the form
+• Custom button for flexible usage
+
+Tips:
+• Explain how form data is sent using action and method
+• Difference between get and post methods
+
+🔹 7. Practice Activity – Build a Contact Form
+Task: Create a simple contact form with the following fields
+• Full name using a text input
+• Email address
+• Gender selection using radio buttons
+• List of interests using checkboxes
+• Country selection using a dropdown
+• Message using a textarea
+• Submit button to send the form
+
+🔹 8. Wrap-up + Q&A
+Summary:
+• Learned the purpose and structure of HTML forms
+• Explored various input types
+• Practiced how to build a complete form with proper fields
+
+Next Session Preview:
+• HTML form validation and file uploads
+• Page layout using divs and semantic HTML containers

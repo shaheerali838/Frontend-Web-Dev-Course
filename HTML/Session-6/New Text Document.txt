@@ -1,0 +1,86 @@
+🔹 1. Recap of Session 5
+• Form structure with <form>
+• Labels, input fields, buttons
+• Input types: text, password, email, checkbox, radio, file
+• Advanced inputs: color, range, date/time pickers
+• Submit and reset buttons
+
+🔹 2. Embedding Media in HTML
+Concepts to Cover:
+• Purpose of media (audio, video, external content)
+• Adding audio with <audio src>
+• Embedding video using <video src>
+• File types: .mp3, .mp4, .ogg, .webm
+• Important attributes:
+• src: Specifies the path to the video file.
+• controls: Adds video controls, like play, pause, and volume.
+• autoplay: Automatically starts playing the video when the page loads.
+• loop: Repeats the video once it ends.
+• muted: Mutes the video by default.
+• poster: Specifies an image to be displayed before the video starts playing.
+• width and height: Specifies the dimensions of the video.
+
+Examples:
+• YouTube embed with <iframe>
+• MP4 video with <video> tag
+• Audio player with <audio> tag
+
+Tips:
+• Avoid autoplay with sound – it's bad UX
+• Always include controls for accessibility
+
+🔹 3. Semantic HTML
+Concepts to Cover:
+• Definition: Tags that describe meaning (not just structure)
+• Importance: Better SEO, accessibility, readability
+• Replaces <div> overload for structure
+
+Important Semantic Tags:
+• <header> – intro content or site banner
+• <nav> – navigation menu
+• <main> – main content of the page
+• <section> – thematically grouped content
+• <article> – standalone self-contained content
+• <aside> – sidebar or related info
+• <footer> – bottom of the page info
+
+Use Cases:
+• Blog layout
+• Portfolio site
+• Dashboard interface
+
+Example Page Structure:
+
+<header> → Logo + Title
+
+<nav> → Menu links
+
+<main>
+
+<section> or <article> for main info
+
+<aside> → Sidebar or extra links
+
+<footer> → Copyright, social links
+
+🔹 4. Practice Activity – Basic Web Page with Media and Layout
+Task: Create a simple portfolio/homepage layout
+• Use semantic tags for structure
+• Embed one YouTube video (project intro)
+• Add an <audio> clip (voice intro)
+• Include a <video> (if available)
+
+Checklist:
+✅ Use <header>, <nav>, <main>, <section>, <footer>
+✅ Embed at least one audio or video
+✅ Make the layout responsive and readable
+
+🔹 5. Wrap-up + Q&A
+Summary:
+• Learned how to embed media using audio, video, iframe
+• Explored semantic HTML for better structure and SEO
+• Practiced a complete HTML layout
+
+Next Session Preview:
+• Session 7 – Final Mini Project using all learned HTML
+• Will include: layout, images, links, form, tables, and media

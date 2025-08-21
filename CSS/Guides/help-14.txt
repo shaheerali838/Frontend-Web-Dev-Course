@@ -1,0 +1,60 @@
+🔸 1. Recap of Session 13
+• Reviewed CSS variables (custom properties) for reusable styles.
+• Learned how variables improve consistency and simplify theme management.
+• Practiced modern CSS features like clamp(), min(), max(), aspect-ratio, and backdrop-filter.
+• Built a CSS Variables & Dark Mode Showcase page with responsive typography and frosted glass effects.
+
+🔸 2. Floats in CSS
+• Floats were historically used for layouts before Flexbox and Grid.
+• Elements float left or right, allowing text or inline content to wrap around.
+• Commonly used for images inside text blocks.
+• Requires clearfix techniques to handle collapsing container heights.
+• Limited compared to modern layout tools but still useful in specific cases.
+
+🔸 3. Shadows in CSS
+• Box-shadow — adds depth by creating shadows around elements.
+• Text-shadow — applies shadows directly to text for emphasis.
+• Shadows can enhance UI design by giving visual hierarchy.
+• Multiple shadows can be layered for creative effects.
+• Subtle shadows improve readability and user focus.
+
+🔸 4. CSS Filters
+• Filters apply graphical effects to elements (blur, brightness, contrast, grayscale, hue-rotate, etc.).
+• Often used for images, backgrounds, and hover states.
+• backdrop-filter applies effects to content behind an element (frosted glass).
+• Can enhance UI aesthetics but may affect performance.
+
+🔸 5. Practical Applications
+• Float an image inside a paragraph with text wrapping.
+• Apply subtle box-shadow for cards, modals, and buttons.
+• Use text-shadow for headings or glowing effects.
+
+🔸 6. Tips & Best Practices
+• Avoid using floats for major layouts — prefer Flexbox or Grid.
+• Keep shadows subtle — strong shadows can look unnatural.
+• Test filters across devices — not all effects render the same.
+• Use backdrop-filter sparingly, as it impacts performance.
+• Combine shadows and filters with transitions for smooth effects.
+
+🔸 7. Practice Activity
+Task: Build a “Shadows & Filters Showcase” page
+• Section 1: A paragraph with a floated image.
+• Section 2: A card grid with box-shadows.
+• Section 3: Text with creative text-shadows.
+• Section 4: Image gallery with hover filters.
+• Create hover effects with filters like brightness or grayscale.
+
+Bonus Task:
+• Create a frosted glass header or card using backdrop-filter.
+
+🔸 8. Wrap-up + Q&A
+• Reviewed floats and their role in older layouts.
+• Learned how to create depth with box-shadow and text-shadow.
+• Practiced using filters and backdrop-filter for UI effects.
+• Discussed best practices for performance and design clarity.
+
+🔸 Next Session Preview (Session 15)
+• Pseudo-Classes and Pseudo-Elements.
+• Styling states like :hover, :focus, :active, :nth-child.
+• Using ::before and ::after for decorative or functional content.
+• Practical applications in buttons, forms, and layouts.

@@ -1,0 +1,75 @@
+🔸 1. Recap of Session 6
+• Flexbox – one-dimensional layout system (row/column)
+• Flex container properties – display flex, flex-direction, flex-wrap, justify-content, align-items, align-content
+• Flex item properties – order, flex-grow, flex-shrink, flex-basis, align-self
+• Responsive layouts with Flexbox
+• Practice: Navbar, 3-column responsive section, vertical alignment, equal spacing
+
+🔸 2. Introduction to CSS Grid
+
+Concepts to Cover:
+• What is CSS Grid and why it’s powerful for two-dimensional layouts
+• Difference between Flexbox (1D) and Grid (2D)
+• Creating rows and columns simultaneously
+• Real-world uses: dashboards, galleries, complex page layouts
+
+Visual Explanation:
+• Grid container vs grid items
+• Explicit vs implicit grids
+• Lines, tracks, and cells in a grid
+
+🔸 3. Setting Up a Grid Container
+
+Core Properties:
+• display: grid – enables grid layout
+• grid-template-columns – define column sizes (px, %, fr, auto)
+• grid-template-rows – define row sizes
+• gap – space between rows and columns (row-gap, column-gap)
+• repeat() function for patterns
+• minmax() for responsive sizing
+
+Practice Idea:
+• Create a 3x3 grid layout with equal spacing
+• Use fractional units (fr) for fluid design
+
+🔸 4. Placing Items in the Grid
+
+Properties for Grid Items:
+• grid-column – span columns or position in a specific column
+• grid-row – span rows or position in a specific row
+• grid-area – name and place items easily
+• Shorthand placement: grid-column: 1 / 3; grid-row: 2 / 4;
+
+Extra Tips:
+• Using named grid areas for easier layout control
+• Layering items in the same grid cell with z-index
+
+🔸 5. Advanced Grid Features
+
+• auto-fit and auto-fill for dynamic layouts
+• Combining Grid with media queries for responsiveness
+• Nesting grids inside grid items for complex designs
+
+🔸 6. Practice Activity
+
+Task: Build a photo gallery using CSS Grid:
+• Equal spacing with gap property
+• Images that maintain aspect ratio
+• Optional: Title and description inside grid items
+
+Bonus Task:
+• Create a blog layout with a header, sidebar, main content, and footer using named grid areas
+
+🔸 7. Wrap-up + Q&A
+
+Summary:
+• Learned what CSS Grid is and when to use it
+• Built layouts with rows and columns
+• Placed and spanned items using grid-column and grid-row
+• Created responsive designs with and minmax
+• Practiced building real-world layouts
+
+🔸 Next Session Preview (Session 8):
+• Combining Flexbox and Grid in the same project
+• Advanced layout tricks and responsive strategies
+

@@ -1,0 +1,88 @@
+🔸 1. Recap of Session 4
+• CSS Borders – width, style, color, shorthand, and radius
+• Background properties – color, image, repeat, position, size, attachment
+• CSS Box Model – content, padding, border, margin
+• box-sizing – content-box vs border-box
+• Card layout activity using all above properties
+
+🔸 2. CSS Display Property
+
+Concepts to Cover:
+• Purpose of the display property in layout control
+• Common values:
+
+block: takes full width, starts on a new line
+
+inline: flows with content, cannot set width/height cant give margin top and bottom
+
+inline-block: inline flow but allows width/height and also allow margin top and bottom
+
+none: hides the element completely from layout
+
+Extra Tip:
+• Show default display behavior for common elements (div, span, h1, img, etc.)
+• Demonstrate block-to-inline conversion and vice versa
+
+🔸 3. CSS Visibility Property
+
+Concepts to Cover:
+• visibility: visible (default), hidden (element hidden but space reserved)
+• Difference between display: none and visibility: hidden
+
+Use Cases:
+• Temporarily hiding elements
+
+🔸 4. CSS Overflow Property
+
+Concepts to Cover:
+• What happens when content overflows a container
+• overflow: visible (default), hidden, scroll, auto
+• Add scrollbars when content exceeds box size
+• overflow-x and overflow-y for controlling direction
+
+Practice Idea:
+• Create a fixed-size box and test overflow behavior by adding extra text
+
+🔸 5. CSS Positioning
+
+Core Concepts:
+• position: static (default), relative, absolute, fixed
+• relative – shifts from its normal position
+• absolute – positioned relative to the nearest positioned ancestor
+• fixed – stays fixed to viewport during scroll
+
+Other Properties:
+• top, bottom, left, right for placement
+• z-index for stacking elements (brief mention)
+
+Examples:
+• A floating box using absolute
+• Sticky header using fixed
+• Shifting boxes using relative
+
+Visual Demo:
+• Use browser dev tools to experiment with position values
+• Stack elements and highlight how position affects layout
+
+🔸 6. Practice Activity
+
+Task: Create a basic layout with the following:
+• A navigation bar fixed at the top
+• A banner using a background image
+• A floating call-to-action box using absolute positioning
+• A content section with scrollable overflow box
+• A card that uses inline-block layout for multiple boxes
+
+🔸 7. Wrap-up + Q&A
+
+Summary:
+• Learned about how display property changes element behavior
+• Understood visibility vs display
+• Controlled overflowing content with overflow properties
+• Applied different positioning strategies
+• Hands-on layout combining all learned techniques
+
+🔸 Next Session Preview (Session 6):
+• Flexbox: One-dimensional layout system
+• Aligning items horizontally and vertically
+• Building responsive card grids and navigation menus

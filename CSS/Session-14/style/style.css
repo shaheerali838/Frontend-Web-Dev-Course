@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #212121;
+}
+
+/* h1 {
+    margin: 5rem;
+    padding: 5rem;
+    border: 2px solid rgb(155, 240, 155);
+    color: white;
+    display: flex;
+   
+    justify-content: center;
+    box-shadow: 12px 15px 19px rgba(255, 255, 255, 0.3);
+    text-shadow: 20px -2px 0px rgba(255, 255, 255, 0.3);
+} */
+
+
+
+
+
+.container {
+    margin: 5rem;
+    padding: 5rem;
+    border: 2px solid rgb(155, 240, 155);
+    color: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 12px 15px 19px rgba(255, 255, 255, 0.3);
+    text-shadow: 20px -2px 0px rgba(255, 255, 255, 0.3);
+}
+
+p {
+    margin: 5rem;
+    padding: 5rem;
+    border: 2px solid rgb(155, 240, 155);
+    color: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 12px 15px 19px rgba(255, 255, 255, 0.3);
+    text-shadow: 20px -2px 0px rgba(255, 255, 255, 0.3);
+    /* filter: blur(25px); */
+}
+
+
+
+img {
+    width: 900px;
+    filter: sepia();
+    float: left;
+    aspect-ratio: 1;
+    object-fit: contain;
+}

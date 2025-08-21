@@ -1,0 +1,54 @@
+🔸 1. What is CSS?
+CSS stands for Cascading Style Sheets.
+It is used to control the visual presentation of HTML elements.
+CSS defines how elements are displayed — including layout, color, spacing, fonts, backgrounds, and more.
+
+🔸 2. Why Use CSS?
+• Separates content (HTML) from design (CSS)
+• Makes design changes easier and faster
+• Enables consistency across all web pages
+• Supports responsive design for different devices
+• Improves user experience through styling
+
+🔸 3. Ways to Apply CSS
+
+• Inline CSS – added directly within an HTML element using the "style" attribute
+• Internal CSS – placed inside a "style" tag within the "head" section of an HTML document
+• External CSS – written in a separate file with a ".css" extension and linked to the HTML using the "link" tag
+
+Each method has its use. Inline is quick but not reusable. Internal works for single-page styling. External is preferred for scalable, clean, and reusable code.
+
+🔸 4. CSS Syntax (Concept Only)
+Every CSS rule has three parts:
+• Selector – the HTML element you want to style
+• Property – the style you want to apply
+• Value – the setting for that property
+
+For example, if you want to change the color of all paragraphs to red:
+• Selector: paragraph
+• Property: color
+• Value: red
+
+🔸 5. CSS Comments
+CSS comments are used to explain parts of your style rules.
+They do not affect how the page looks.
+You can also use comments to temporarily disable a line of CSS code while testing.
+
+🔸 6. Connecting CSS to HTML
+• Inline styles are written directly inside the HTML tag
+• Internal styles go inside the head section of the HTML page using the style tag
+• External styles are written in a separate file and connected using a link tag in the HTML head
+
+External CSS is considered the best method for organizing styles in professional projects.
+
+🔸 7. Practice Activity
+Guide your viewers to:
+• Add an inline style to a paragraph (e.g., change its text color)
+• Use internal CSS to style a heading (e.g., change font or size)
+• Create an external CSS file and apply background color and font family to the entire page
+
+📝 Suggested Task for Learners:
+Create a basic “Hello CSS” webpage and try applying all three types of CSS.
+• Change the text color of a paragraph
+• Set a background color for the body
+This helps reinforce the structure and purpose of each CSS method.

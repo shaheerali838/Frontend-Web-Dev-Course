@@ -1,0 +1,64 @@
+🔸 1. Recap of Session 2
+• CSS selectors: element, class, ID, group, universal, descendant
+• Color systems: keywords, HEX, RGB, RGBA, HSL, HSLA
+• Units: absolute (px, pt), relative (% , em, rem, vw, vh)
+• Practice combining selectors with colors and units
+
+🔸 2. Font Styling in CSS
+
+• font-family – Sets the font style (e.g., Arial, Times New Roman, sans-serif)
+• font-size – Controls the size of the text (use px, em, rem)
+• font-weight – Adjusts the thickness of text (normal, bold, 100–900)
+• font-style – Makes text italic or normal
+• Text-Transform – Changes the Case of text (uppercase, lowercase, capitalize)
+
+📝 Practice:
+Style a heading and paragraph using different font families, sizes, and weights.
+
+🔸 3. Text Alignment and Spacing
+
+• text-align – Aligns text left, right, center, or justify
+• line-height – Controls the space between lines in a block of text
+• letter-spacing – Adjusts the space between individual letters
+• word-spacing – Adjusts the space between words
+• text-indent – Adds indentation to the first line of a paragraph
+
+📝 Practice:
+Apply different text alignment options to multiple blocks. Try line height and spacing adjustments on a paragraph for improved readability.
+
+🔸 4. Text Decoration and Style Effects
+
+• text-decoration – Adds or removes underline, overline, line-through
+• text-shadow – Applies shadow to text for visual depth
+• color – Change text color (reinforce previous knowledge)
+• background-color – Add highlight background to text
+
+📝 Practice:
+Make a highlighted quote section using text-decoration, color, and background-color. Apply text-shadow to a heading.
+
+🔸 5. The font Shorthand Property
+
+The font property lets you write font-style, font-weight, font-size, line-height, and font-family in one line.
+It is useful for writing compact CSS, but the order must be correct.
+
+📝 Practice:
+Use the font shorthand to apply multiple font properties at once on a heading or a paragraph.
+
+🔸 6. Mini Project Activity: “Blog Introduction Page”
+
+Task:
+• A large heading styled with a unique font and shadow
+• A paragraph with adjusted line height and font size
+• Apply spacing and alignment to improve layout
+
+🔸 7. Wrap-Up and Next Session Preview
+
+✅ What we covered today:
+• font-family, size, weight, style
+• text alignment and spacing
+• text-decoration and shadows
+• font shorthand for efficient styling
+
+📌 Next Session Preview (Session 4):
+• Box Model in CSS: margin, padding, border, width, height
+• Understanding element spacing and layout structure

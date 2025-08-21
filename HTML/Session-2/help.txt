@@ -1,0 +1,67 @@
+These affect how text looks but may not carry semantic meaning.
+
+b – Bold (non-semantic)
+
+i – Italic (non-semantic)
+
+u – Underline (non-semantic)
+
+mark – Highlights text
+
+small – Decreases text size
+
+s - strike on a word
+
+🔹 3. Semantic Formatting Tags
+Explain that these tags give meaning to content and are important for accessibility & SEO.
+
+strong – Important text (renders bold)
+
+em – Emphasized text (renders italic)
+
+del – Deleted/struck text
+
+ins – Inserted text (usually underlined)
+
+sup – Superscript (e.g., x²)
+
+sub – Subscript (e.g., H₂O)
+
+
+🔹 4. HTML Comments
+Syntax: <!-- This is a comment -->
+
+Use case: Notes for developers, temporarily disabling code
+
+🔹 5. White Space in HTML
+Explain how HTML collapses multiple spaces/tabs/new lines into one space
+Demonstrate how to create spacing:
+
+Using multiple br tags (not best practice, but beginner-friendly)
+
+Later mention CSS will handle layout professionally
+
+🧠 Suggested Practice Task for Viewers:
+Build an "About Me" section using:
+
+h2 for the title
+
+p for a paragraph about yourself
+
+br to separate lines (temporarily)
+
+hr to create a divider
+
+Use strong, em, mark, sub, sup to format some personal or random info
+
+Add a comment above the section like: “About Me Section Starts Here”
+
+✅ Summary at End of Session:
+You now know the difference between semantic and non-semantic tags
+
+You can visually and meaningfully format web content
+
+You understand how browsers interpret space and text structure
+
+You’ve started building usable HTML blocks
+

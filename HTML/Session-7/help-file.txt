@@ -1,0 +1,48 @@
+🔹 1. Recap of Session 6
+• Learned how to embed YouTube videos using iframe
+• Used the audio tag with controls, autoplay, and loop
+• Embedded video using the video tag with multiple formats
+• Discussed media attributes like controls, autoplay, loop, and muted
+• Covered best practices for accessibility with media
+
+🔹 2. Introduction to Semantic HTML
+Concepts to Cover:
+• What is Semantic HTML?
+• Why it’s important: better SEO, accessibility, and cleaner code
+• Difference between semantic and non-semantic tags (div vs header, main, etc.)
+
+🔹 3. Important Semantic Tags
+Concepts to Cover:
+• header – top of the page or section
+• nav – navigation menu
+• main – main content of the page
+• section – groups of related content
+• article – standalone pieces of content
+• aside – sidebar or related information
+• footer – bottom of the page
+
+Tips:
+• Explain use cases of each tag
+• Show a sample layout using these tags
+
+🔹 4. Benefits of Semantic HTML
+• Improves search engine optimization (SEO)
+• Helps screen readers and accessibility tools
+• Makes your HTML more structured and maintainable
+
+🔹 5. Practice Activity – Semantic Web Page Layout
+Task: Create a simple web page using semantic HTML.
+• Add a header with the site name
+• Add a nav bar with links
+• Add a main section with multiple sections/articles
+• Include an aside with extra information
+• Add a footer with contact info or copyright text
+
+Bonus:
+• Combine this page with the embedded media (from Session 6) inside main or article
+
+🔹 6. Wrap-up + Q&A
+Summary:
+• Learned the purpose and use cases of semantic tags
+• Practiced building a structured, accessible web page
+• Understood how semantic tags help search engines and screen readers

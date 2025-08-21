@@ -1,0 +1,72 @@
+🔸 1. Recap of Session 5
+• CSS Display property – block, inline, inline-block, none
+• Visibility property – visible vs hidden
+• Overflow control – visible, hidden, scroll, auto
+• Positioning – static, relative, absolute, fixed
+• z-index, top, bottom, left, right for placement
+• Practice layout: fixed navbar, background banner, floating box, scrollable section
+
+🔸 2. Introduction to Flexbox
+
+Concepts to Cover:
+• What is Flexbox and why it's useful
+• One-dimensional layout model (works in rows or columns)
+• Helps align, space, and distribute items efficiently
+• Simplifies layout creation compared to float or inline-block
+
+Visual Explanation:
+• Main axis vs cross axis
+• Horizontal and vertical alignment with ease
+• Common layout problems solved by Flexbox
+
+🔸 3. Flex Container Properties
+
+Concepts to Cover:
+• display: flex – enables Flexbox on a container
+• flex-direction – row, row-reverse, column, column-reverse
+• flex-wrap – nowrap (default), wrap, wrap-reverse
+• justify-content – align items along main axis (start, end, center, space-between, space-around, space-evenly)
+• align-items – align items on cross axis (start, end, center, stretch, baseline)
+• align-content – controls multiple lines when wrapping is used
+
+Practice Idea:
+• Create a navigation bar with evenly spaced links using justify-content
+• Practice flex-direction to make vertical vs horizontal boxes
+
+🔸 4. Flex Item Properties
+
+Concepts to Cover:
+• order – change item order without HTML changes
+• flex-grow – how much space an item should take when extra space is available
+• flex-shrink – how much an item should shrink when needed
+• flex-basis – default size before remaining space is distributed
+• align-self – override align-items on individual items
+
+Demo Idea:
+• Create 3 boxes in a row – use grow, shrink, and basis to control their size
+• Make one box grow double the space of others
+
+🔸 5. Practice Activity
+
+Task: Build a Flexbox layout
+• A header with space-between logo and menu
+• A 3-column section that stacks vertically on smaller screens
+• Use align-items to center vertically
+• Use justify-content to create equal spacing
+
+Bonus:
+• Add flex-wrap and test how elements flow
+
+
+🔸 6. Wrap-up + Q&A
+
+Summary:
+• Learned the core concepts of Flexbox layout
+• Understood flex container vs item properties
+• Aligned and spaced elements using justify and align tools
+• Practiced building real-world layouts like navbars and responsive grids
+
+🔸 Next Session Preview (Session 7):
+• CSS Grid – two-dimensional layout system
+• Creating rows and columns
+• Building complex and responsive layout structures using grid-template

@@ -1,0 +1,57 @@
+🔸 1. Recap of Session 1
+• What is CSS
+• Three ways to apply CSS (inline, internal, external)
+• CSS syntax: selector, property, value
+• How to connect CSS to HTML
+• Added basic background and font styles
+
+🔸 2. CSS Selectors
+
+• Element Selector – targets all elements of a given type (e.g., all paragraphs)
+• Class Selector – targets elements with a specific class attribute
+• ID Selector – targets a single element with a specific ID
+• Group Selector – applies the same style to multiple selectors at once
+• Universal Selector – targets all elements on the page
+• Descendant Selector – targets an element inside another element
+
+📝 Practice:
+Use class and ID selectors to style two different elements differently. Combine selectors in a group for shared styles.
+
+🔸 3. CSS Colors
+
+• Color Keywords – like red, blue, green
+• Hex Codes – like #ff0000
+• RGB and RGBA – rgb(255, 0, 0), rgba(255, 0, 0, 0.5)
+• HSL and HSLA – hsl(0, 100%, 50%), hsla(0, 100%, 50%, 0.5)
+
+📝 Practice:
+Apply background and text colors using different color formats.
+Try semi-transparent backgrounds using RGBA or HSLA.
+
+🔸 4. CSS Units
+
+• Absolute Units – px (pixels), pt (points), cm (centimeters), in (inches)
+• Relative Units – %, em, rem, vw (viewport width), vh (viewport height)
+
+📌 Tip:
+Relative units like em and rem scale with the parent or root element and are better for responsiveness.
+
+📝 Practice:
+Set font sizes using both px and rem. Apply padding and margins using % and em.
+
+🔸 5. Mini Project Task
+Create a “Profile Card” using the following:
+• A container styled using a class selector
+• A heading and paragraph with different text colors
+• Padding and margin using relative units
+• Apply a background color using HEX or RGB
+• Use at least two different types of selectors
+
+🔸 6. Wrap-Up and Next Session Preview
+Today we learned:
+• How to select and target elements in CSS
+• How to apply different types of colors
+• The difference between absolute and relative units
+
+📌 Next Session Preview:
+• Typography in CSS: font-family, font-size, font-weight, text-align, line-height, letter-spacing, word-spacing, text-decoration, and font shorthand

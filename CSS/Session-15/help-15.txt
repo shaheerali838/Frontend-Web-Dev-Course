@@ -1,0 +1,53 @@
+🔸 1. Recap of Session 14
+• Reviewed floats, their role in older layouts, and why Flexbox/Grid are preferred.
+• Learned how to apply box-shadow and text-shadow to create depth.
+• Practiced using CSS filters like blur, grayscale, brightness, and hue-rotate.
+• Built a Shadows & Filters Showcase page with hover effects and frosted glass.
+
+🔸 2. Introduction to Pseudo-Classes
+• Pseudo-classes define the state of an element (not permanent styles).
+• Common states: :hover, :focus, :active, :visited.
+• Structural pseudo-classes target elements based on position (:first-child, :last-child, :nth-child).
+• Useful for interactivity without JavaScript.
+
+🔸 3. Introduction to Pseudo-Elements
+• Pseudo-elements style specific parts of an element.
+• ::before and ::after allow inserting decorative or functional content.
+• Common uses: icons, overlays, highlights, decorative shapes.
+• ::first-line and ::first-letter apply styles to text portions.
+
+🔸 4. Practical Applications
+• Highlighting links when hovered using :hover.
+• Styling form inputs with :focus and buttons with :active.
+• Creating alternating row styles in tables with :nth-child.
+• Adding icons or shapes using ::before and ::after.
+• Decorative effects like underlines, ribbons, or background highlights.
+
+🔸 5. Tips & Best Practices
+• Use pseudo-classes for UI feedback (hover, focus) to improve accessibility.
+• Use pseudo-elements for design effects instead of extra HTML.
+• Keep content added via ::before/::after purely decorative (not essential).
+• Combine pseudo-classes and pseudo-elements for creative effects.
+• Test on different browsers, as some pseudo-classes have limited support.
+
+🔸 6. Practice Activity
+Task: Build a “Pseudo-Classes & Pseudo-Elements Showcase” page
+• Section 1: Buttons with hover, focus, and active states.
+• Section 2: Form inputs styled with :focus and validation states.
+• Section 3: A styled list with alternating colors using :nth-child.
+• Section 4: Cards decorated with ::before and ::after elements (like ribbons or badges).
+
+Bonus Task:
+• Create a glowing button effect using :hover + ::before for background animation.
+
+🔸 7. Wrap-up + Q&A
+• Learned the difference between pseudo-classes and pseudo-elements.
+• Practiced common use cases like hover effects, focus states, and decorative content.
+• Explored creative design possibilities without adding extra HTML.
+• Discussed best practices for accessibility and maintainability.
+
+🔸 Next Session Preview (Session 16)
+• Forms and Buttons Styling.
+• Styling input fields, checkboxes, radio buttons, and dropdowns.
+• Advanced button styles with gradients, shadows, and animations.
+• Improving accessibility and UX with consistent form design.

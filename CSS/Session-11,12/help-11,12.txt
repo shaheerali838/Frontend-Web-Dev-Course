@@ -1,0 +1,78 @@
+🔸 CSS Transforms
+
+Change an element’s appearance without affecting document flow.
+
+2D transforms: translate, scale, rotate, skew.
+
+3D transforms: rotateX, rotateY, perspective.
+
+Often combined with transitions and animations for interactive effects.
+
+🔸 CSS Transitions
+
+Create smooth, gradual changes between property values.
+
+Triggered by user actions such as hover, focus, or click.
+
+Control property, duration, timing function, and delay.
+
+Ideal for hover effects, dropdown menus, and UI feedback.
+
+🔸 CSS Animations
+
+Enable continuous or multi-step movements without user interaction.
+
+Built using keyframes that define changes at different points in time.
+
+Control duration, iteration count, direction, delay, and fill mode.
+
+Commonly used for loaders, banners, and entrance effects.
+
+
+🔸 Combining Transitions, Animations & Transforms
+
+Transitions handle smooth state changes.
+
+Animations add motion and rhythm.
+
+Transforms provide spatial changes like scaling and rotation.
+
+Together they create engaging, smooth, and performant UI effects.
+
+Examples:
+
+Buttons that change color and scale on hover.
+
+Loaders that spin endlessly.
+
+Cards that flip in 3D.
+
+Images that zoom with shadow effects.
+
+🔸 Performance Tips
+
+Prefer transforms and opacity for smooth, hardware-accelerated effects.
+
+Avoid animating properties like width, height, top, and left frequently.
+
+Keep animations subtle to avoid distracting users.
+
+Match duration and repetition to the design’s purpose.
+
+🔸 Practice Ideas
+
+Hover buttons with color change and scaling.
+
+Continuous rotating loader.
+
+3D card flip animation.
+
+Image gallery with hover zoom and shadow.
+
+🔸 Next Session Preview (Session 13)
+
+CSS Variables (Custom Properties).
+
+Implementing Light & Dark Mode.
+
+Modern CSS features for maintainable, reusable styles.

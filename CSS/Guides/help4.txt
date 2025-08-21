@@ -1,0 +1,60 @@
+🔸 1. Recap of Session 3
+• Typography: font-family, font-size, font-weight
+• Text alignment and spacing
+• Text decoration and transformation
+• font shorthand property
+
+🔸 2. CSS Borders
+Concepts to Cover:
+• border-width
+• border-style (solid, dashed, dotted, double, none)
+• border-color
+• border shorthand (e.g., border: 2px solid black)
+• border-radius (rounded corners)
+
+Extra Tip:
+• Explain how borders affect element sizing visually
+• Show how border-radius can create circles or pill shapes
+
+🔸 3. CSS Backgrounds
+Concepts to Cover:
+• background-color
+• background-image (local or external URL)
+• background-repeat (repeat, no-repeat, repeat-x/y)
+• background-position (top, center, left, etc.)
+• background-size (cover, contain, auto)
+• background-attachment (scroll, fixed)
+
+Extra Tip:
+• Use background shorthand for combined properties
+• Explain layering multiple background images
+
+🔸 4. The CSS Box Model
+Core Concepts:
+• Content → Padding → Border → Margin
+• How padding and margin affect spacing
+• box-sizing: content-box vs border-box
+
+Visual Explanation:
+• Use browser dev tools to inspect box model
+• Explain collapsing margins and spacing issues
+
+🔸 5. Practice Activity
+Task: Design a feature card or profile card layout using:
+• Borders with custom styles
+• Background color or background image
+• Padding and margin for spacing
+• border-radius for rounded corners
+• Box-sizing to manage layout behavior
+
+🔸 6. Wrap-up + Q&A
+Summary:
+• Learned how to style and round borders
+• Applied background images and colors
+• Understood how the box model defines layout
+• Practiced spacing with margin and padding
+
+Next Session Preview:
+• CSS Display Property
+• Visibility and Overflow
+• Positioning in CSS (static, relative, absolute, fixed)

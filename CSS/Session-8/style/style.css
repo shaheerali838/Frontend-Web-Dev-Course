@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: blue;
+}
+
+/* ************* section tablet media query starts here ************* */
+
+
+@media screen and (max-width:500px) and (min-width:400px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* ************* section tablet media query ends here ************* */
+
+
+/* ************* section mobile media query starts here ************* */
+
+
+/* ************* section mobile media query ends here ************* */
