@@ -1,0 +1,20 @@
+🔸 Recap of Previous Session
+• Worked on the Coffee E-Commerce Website Project design.
+• Structured main sections: Header, Hero, Products, Categories, About, and Footer.
+• Applied styling with CSS variables, and hover effects.
+
+🔸 Today’s Session: Making the Project Responsive
+• Understanding responsive design goals – mobile-first and fluid layouts.
+• Applying CSS media queries for different breakpoints (mobile, tablet, desktop).
+• Adjusting font sizes, paddings, and margins for smaller screens.
+• Turning product cards into a grid that adapts on smaller devices.
+• Ensuring images scale properly without breaking the layout.
+• Testing responsiveness in browser dev tools.
+• Practiced clean layouts and uploading project to GitHub.
+
+🔸 Next Session Preview
+• Introduction to Bootstrap Framework.
+• Why Bootstrap is popular for rapid responsive design.
+• Setting up Bootstrap and understanding the grid system.
+• Using Bootstrap utilities and components for faster development.
+• Making the navigation bar responsive (mobile menu or stacked links).

@@ -1,0 +1,755 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /*! = 10px = 1rem */
+    font-family: "poppins";
+}
+
+.container {
+    padding: 1.8rem;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+:root {
+    --Primary-color: #161616;
+    --Button-color: #141414;
+    --Main-Font-color: #FEFEFE;
+    --Primary-Font-color: #070707;
+    --Secondary-Font-color: #919191;
+    --Border-color: #252525;
+}
+
+/* ************* section utilities starts here ************* */
+
+ul,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--Secondary-Font-color);
+}
+
+.btn {
+    padding: .5rem 1rem;
+    background-color: var(--Button-color);
+    outline: none;
+    border: none;
+    color: var(--Main-Font-color);
+    border: solid 1px #252525;
+    cursor: pointer;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.btn:hover {
+    background-color: var(--Main-Font-color);
+    color: var(--Button-color);
+}
+
+section {
+    margin: 0 0 5rem 0;
+}
+
+.main,
+.categories,
+.great-Offers,
+.about-comanpany {
+    min-height: calc(100vh - 40px - 1.8rem);
+    /* Adjust for header */
+}
+
+
+
+
+/* ************* section utilities ends here ************* */
+
+/* ************* section header starts here ************* */
+
+header {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid var(--Secondary-Font-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem;
+    position: sticky;
+    /* Optional: Keep header fixed if intended */
+    top: 0;
+    z-index: 10;
+    background-color: var(--Main-Font-color);
+    overflow: hidden;
+}
+
+
+header .logo p {
+    font-size: 2rem;
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+    align-items: center;
+
+}
+
+header .nav ul {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+
+header .nav .icons {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 1.2rem;
+    font-size: 1.4rem;
+}
+
+
+/* ************* section header ends here ************* */
+/* ************* section main starts here ************* */
+
+.main {
+    display: flex;
+    height: calc(100vh - 40px);
+    width: 100%;
+    background: var(--Primary-color);
+}
+
+.main .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .headingPara {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--Main-Font-color);
+}
+
+
+.main .headingPara h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--Secondary-Font-color);
+}
+
+.main .headingPara h1 {
+    font-size: 3.8rem;
+
+}
+
+.main .headingPara button {
+    text-transform: capitalize;
+    margin-top: 3rem;
+}
+
+.main .mainImg {
+    height: 100%;
+    width: 50%;
+}
+
+.main .container .mainImg img {
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+/* ************* section main ends here ************* */
+
+/* ************* section newz starts here ************* */
+
+.featured {
+    padding: 2rem;
+    width: 100%;
+}
+
+.featured .container {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.featured .container .newz {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 10rem;
+    width: auto;
+    border: 0.5px solid var(--Secondary-Font-color);
+    width: 25%;
+}
+
+/* ************* section newz ends here ************* */
+
+/* ************* section Popular Product starts here ************* */
+
+
+.popular-Products {
+    min-height: calc(100vh - 40px - 1.8rem);
+    margin-top: 0rem;
+}
+
+.popular-Products .container .top h2 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.popular-Products .container .bottom {
+    display: flex;
+    gap: 1rem;
+    height: 100%;
+
+}
+
+.popular-Products .container .bottom .left {
+    height: 100%;
+    width: 40%;
+    border: solid red 2px;
+    padding: 2rem;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        height: 80%;
+    }
+}
+
+.popular-Products .container .bottom .left,
+.popular-Products .container .bottom .products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    border: .5px solid var(--Border-color);
+}
+
+
+.popular-Products .container .bottom .right {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.popular-Products .container .bottom .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-Products .container .bottom .right .products {
+    width: 49%;
+    height: auto;
+    /* Allow dynamic height */
+    min-height: 11rem;
+    /* Maintain minimum for consistency */
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    align-items: center;
+}
+
+.popular-Products .container .bottom .right .products img {
+    width: 57%;
+}
+
+.products:nth-child(4) {
+    align-items: center;
+    justify-content: center;
+    height: 11rem;
+}
+
+
+/* ************* section Popular Product ends here ************* */
+
+
+/* ************* section categories starts here ************* */
+
+.categories {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.categories .container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.categories .container .left {
+    width: 50%;
+    height: 100%;
+    padding: 5rem;
+
+}
+
+.categories .container .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin-top: 20rem;
+    overflow: hidden;
+
+    p {
+        font-size: 5rem;
+    }
+
+    button {
+        margin-top: 3rem;
+        font-size: 2rem;
+    }
+
+}
+
+.categories .container .right span {
+    color: var(--Secondary-Font-color);
+
+}
+
+
+
+.categories .container .left img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* ************* section categories ends here ************* */
+
+
+/* ************* section Great Offers starts here ************* */
+.great-Offers {
+
+    width: 100%;
+    margin-top: 0rem;
+
+}
+
+.great-Offers .container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.great-Offers .container .top .para h2 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.great-Offers .container .top .para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 5rem 5rem 0rem;
+}
+
+.great-Offers .container .top .para .buttons {
+    display: flex;
+    gap: 2rem;
+}
+
+.great-Offers .container .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.great-Offers .container .bottom .cards {
+    min-width: 20rem;
+    max-width: 26rem;
+    /* Smaller minimum width */
+    height: auto;
+    min-height: 28rem;
+}
+
+.great-Offers .container .bottom,
+.popular-Products .container .bottom {
+    overflow: auto;
+    /* Prevent content overflow */
+}
+
+.great-Offers .container .bottom .cards img {
+    width: 100%;
+    height: 65%;
+    aspect-ratio: 1;
+}
+
+.great-Offers .container .bottom .cards .para h3 {
+    font-size: 2rem;
+}
+
+.great-Offers .container .bottom .cards .para h4 {
+    font-size: 1rem;
+}
+
+/* ************* section Great Offers ends here ************* */
+
+/* ************* section About company starts here ************* */
+
+.about-comanpany {
+    width: 100%;
+    min-height: calc(100vh - 40px - 1.8rem);
+    margin-top: 2rem;
+}
+
+.about-comanpany .container .top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 5rem;
+}
+
+.about-comanpany .container .bottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    overflow: auto;
+}
+
+.about-comanpany .container .bottom .left {
+    width: 40%;
+    height: auto;
+    min-height: 100%;
+}
+
+.about-comanpany .container .bottom .left img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.about-comanpany .container .bottom .right {
+    width: 60%;
+    height: auto;
+    min-height: 100%;
+    padding: 3rem;
+    background: var(--Secondary-Font-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-comanpany .container .bottom .right .para {
+    font-size: 2rem;
+    text-align: justify;
+    height: auto;
+}
+
+/* ************* section About company ends here ************* */
+
+/* ************* section Form starts here ************* */
+.forms {
+    width: 100%;
+    min-height: calc(100vh - 40px - 1.8rem);
+}
+
+.forms .container {
+    height: auto;
+    min-height: 100%;
+    display: flex;
+    gap: 5rem;
+}
+
+.forms .container .left {
+    width: 50%;
+    height: 100%;
+    padding: 5rem;
+    text-align: justify;
+}
+
+.forms .container .left {
+    overflow: auto;
+    min-height: 100%;
+    height: auto;
+
+    h3 {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+}
+
+.forms .container .right {
+    height: 100%;
+    width: 50%;
+    padding: 5rem;
+    padding-top: 5rem;
+    overflow: auto;
+    min-height: 100%;
+    height: auto;
+}
+
+.forms .container .right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms .container .right form input {
+    outline: none;
+    border: none;
+    border-bottom: 0.5px solid var(--Border-color);
+    padding: 1rem 0 0.1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.forms .container .right button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* ************* section Form ends here ************* */
+
+/* ************* section footer starts here ************* */
+
+.footer {
+    background-color: var(--Primary-color);
+    color: var(--Main-Font-color);
+    padding: 2rem 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+}
+
+.footer-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--Secondary-Font-color);
+}
+
+.footer-column ul li:first-child {
+    margin-top: 0.5rem;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 2rem auto 0;
+    padding: 0 2rem;
+    font-size: 01rem;
+    color: var(--Secondary-Font-color);
+    border-top: 1px solid #333;
+    padding-top: 1rem;
+}
+
+.footer-links a {
+    color: var(--Secondary-Font-color);
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* ************* section footer ends here ************* */
+
+/* ************* section Media Queries starts here ************* */
+
+@media screen and (max-width: 426px) {
+    html {
+        font-size: 52%;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main .container {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .main .container .mainImg img {
+        width: 100%;
+    }
+
+    .main .container .headingPara {
+        width: 100%;
+    }
+
+    .main .container .headingPara button {
+        margin-top: 0;
+        margin-bottom: .2rem;
+
+    }
+
+    .popular-Products .container .bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popular-Products .container .bottom .left {
+        width: 100%;
+    }
+
+    .popular-Products .container .bottom .right {
+        width: 100%;
+    }
+
+    .popular-Products .container .bottom .right .products {
+        width: 100%;
+    }
+
+    .categories .container {
+        flex-direction: column;
+
+    }
+
+    .categories .container .left {
+        width: 100%;
+    }
+
+    .categories .container .right {
+        width: 100%;
+        margin-top: 2rem;
+
+    }
+
+    .categories .container .right .para {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .great-Offers .container {
+        width: 100%;
+    }
+
+    .great-Offers .container .top {
+        width: 100%;
+    }
+
+    .great-Offers .container .top .para {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 1rem 0;
+    }
+
+    .great-Offers .container .bottom {
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .great-Offers .container .bottom .cards {
+        width: 100%;
+    }
+
+    .about-comanpany .container {
+        width: 100%;
+    }
+
+    .about-comanpany .container .top {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-comanpany .container .bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-comanpany .container .bottom .left,
+    .about-comanpany .container .bottom .right {
+        width: 100%;
+
+    }
+
+    .about-comanpany .container .bottom .right .para {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .forms .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .forms .container .left,
+    .forms .container .right {
+        width: 100%;
+    }
+}
+
+/* ************* section Media Queries ends here ************* */

@@ -1,0 +1,12 @@
+🔸 Recap of Previous Session
+• Learned about Git & GitHub basics.
+• Created a GitHub account and installed Git on the system.
+• Linked Git with GitHub using.
+• Practiced real-life example of pushing HTML & CSS project files to GitHub.
+
+
+🔸 Final Project
+• Start building a Coffee E-Commerce Website Project (HTML & CSS).
+• Work section by section: Header, Hero, Features, Products, Categories, About, Contact, Footer.
+• Apply previous CSS concepts (variables, shadows, filters, responsive design).
+• Prepare the project for GitHub deployment.

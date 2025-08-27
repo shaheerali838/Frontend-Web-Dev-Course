@@ -1,0 +1,104 @@
+/* Fix for negative margins causing overlap */
+.popular-Products {
+    /* Changed from margin-top: -10rem to prevent pulling section up */
+    margin-top: 2rem; /* Positive margin for proper spacing */
+}
+
+.great-Offers {
+    /* Removed margin-top: -1rem to avoid overlap with previous section */
+    margin-top: 0;
+}
+
+/* Fix for fixed 100vh heights ignoring header and causing overflow */
+.main, .categories, .great-Offers, .about-comanpany {
+    /* Use min-height instead of height: 100vh to allow content expansion */
+    min-height: calc(100vh - 40px - 1.8rem); /* Account for header (40px + 1.8rem padding) */
+}
+
+.popular-Products {
+    /* Replaced height: calc(100vh - 10rem) to prevent overlap */
+    min-height: calc(100vh - 40px - 1.8rem); /* Adjust for header */
+    margin-top: 2rem; /* Ensure no negative margin */
+}
+
+/* Fix for inconsistent margins */
+section {
+    /* Reduced global section margin-bottom from 5rem to 2rem for consistent spacing */
+    margin: 0 0 2rem 0;
+}
+
+.categories {
+    /* Reduced margin-top: 30rem to prevent excessive gap */
+    margin-top: 2rem; /* Reasonable spacing */
+}
+
+/* Fix for flexbox and content overflow */
+.great-Offers .container .bottom, .popular-Products .container .bottom {
+    /* Added overflow handling to prevent content from spilling */
+    overflow: auto;
+}
+
+.great-Offers .container .bottom .cards {
+    /* Changed fixed height to allow dynamic sizing */
+    height: auto;
+    min-height: 28rem; /* Maintain minimum height for consistency */
+}
+
+.popular-Products .container .bottom .right .products {
+    /* Allow dynamic height to prevent overflow issues */
+    height: auto;
+    min-height: 11rem; /* Maintain minimum for consistency */
+}
+
+/* Fix for header height compensation */
+body {
+    /* Added padding-top to reserve space for header */
+    padding-top: calc(40px + 1.8rem); /* Matches header height + padding */
+}
+
+header {
+    /* Optional: Make header sticky to ensure it stays at top */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Fix for fixed 100vh height causing potential overflow or overlap */
+.forms {
+    /* Changed height: 100vh to min-height to allow content expansion */
+    min-height: calc(100vh - 40px - 1.8rem); /* Account for header (40px height + 1.8rem padding) */
+}
+
+/* Fix for container height to prevent content clipping */
+.forms .container {
+    /* Ensure container respects dynamic content height */
+    height: auto; /* Allow container to expand based on content */
+    min-height: 100%; /* Maintain minimum height to fill parent */
+}
+
+/* Fix for left and right sections to prevent overflow */
+.forms .container .left, .forms .container .right {
+    /* Added overflow handling to prevent content from spilling out */
+    overflow: auto;
+    /* Ensure consistent height with parent */
+    height: auto; /* Allow dynamic height based on content */
+    min-height: 100%; /* Maintain minimum height */
+}
+
+/* Fix for padding inconsistencies to avoid overlap */
+.forms .container .right {
+    /* Adjusted padding-top to align with left section and avoid excessive spacing */
+    padding-top: 5rem; /* Match left section padding for consistency */
+}
+
+/* Fix for form inputs to ensure proper spacing and prevent overlap */
+.forms .container .right form input {
+    /* Ensure inputs don't cause overflow with excessive margins */
+    margin-bottom: 1rem; /* Reduced from 2rem for tighter spacing */
+}
+
+/* Fix for button margin to maintain consistent spacing */
+.forms .container .right button {
+    /* Ensure button margin doesn't push content out of bounds */
+    margin-top: 1rem; /* Reduced from 2rem for balanced spacing */
+}
