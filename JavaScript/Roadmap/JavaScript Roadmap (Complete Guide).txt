@@ -1,0 +1,160 @@
+JavaScript Roadmap (Complete Guide)
+
+Phase 1: Basics of JavaScript
+Introduction + Setup
+• What is JavaScript?
+• How browsers run JS.
+• Setting up environment (browser console, external JS file).
+
+Code Structure
+• Statements.
+• Semicolons.
+• Comments.
+
+Variables & Data Types
+• let, const, var.
+• Number.
+• String.
+• Boolean.
+• Null.
+• Undefined.
+• Symbol.
+• BigInt.
+• typeof operator.
+
+Type Conversions
+• String(), Number(), Boolean().
+• Implicit conversion.
+• Explicit conversion.
+
+Operators
+• Arithmetic operators.
+• Assignment operators.
+• Comparison operators.
+• Logical operators.
+• Nullish coalescing (??).
+• Optional chaining (?.).
+
+Conditional Statements
+• if / else.
+• switch.
+• Ternary (? :).
+
+Loops
+• for.
+• while.
+• do…while.
+• break.
+• continue.
+• Labels.
+
+Phase 2: Functions & Data Structures
+Functions
+• Function declaration vs expression.
+• Arrow functions.
+• Default parameters.
+• Scope & closure (deep coverage from javascript.info).
+
+Objects Basics
+• Creating and modifying objects.
+• Property existence check.
+• in operator.
+• for…in loop.
+
+Object References & Copying
+• Reference vs value.
+• Object.assign, structured cloning.
+• Garbage collection.
+
+Symbols & Object Properties
+• Symbols as unique keys.
+• Hidden properties.
+
+Object Methods & this keyword
+• Adding methods.
+• How this works in different contexts.
+
+Constructor Functions & Classes
+• Function constructors.
+• class syntax.
+• Inheritance.
+
+Optional Chaining & Advanced Objects
+• Optional chaining (?.).
+• More advanced object features.
+
+Phase 3: Data Handling
+Arrays Basics
+• Creating arrays.
+• Accessing elements.
+
+Array Methods
+• map, filter, reduce, find.
+
+Array Iteration & Higher Order Functions
+• forEach.
+• Callbacks.
+
+Destructuring & Spread/Rest
+• Array & object destructuring.
+• Spread and rest operators.
+
+Date & Time
+• Working with Date object.
+
+JSON & Serialization
+• Converting to/from JSON.
+
+Map, Set, WeakMap, WeakSet
+• Differences and use cases.
+
+Phase 4: Advanced Functions
+• Closures.
+• The old var.
+• Global object.
+• Function object & properties.
+• New Function syntax.
+• Scheduling (setTimeout, setInterval).
+
+Phase 5: Browser & DOM
+DOM Basics
+• Selectors, nodes.
+
+DOM Manipulation
+• Create, append, remove.
+
+DOM Properties & Attributes
+• Getters & setters.
+
+Events & Event Delegation
+• Event listeners.
+• Delegation patterns.
+
+Forms & Controls
+• Handling inputs.
+• Validation basics.
+
+CSS Manipulation with JS
+• Changing styles dynamically.
+
+Browser Events
+• Scroll, resize, load.
+
+Phase 6: Advanced JavaScript
+• Error Handling (try/catch, throw).
+• Promises & Async/Await.
+• Event Loop, microtasks & callbacks.
+• Fetch API & AJAX.
+• Modules (import/export).
+• Generators & Iterators.
+• Proxy & Reflect.
+• Decorators.
+
+Phase 7: Extra & Final
+• Storage (localStorage, sessionStorage, cookies).
+• Regular Expressions (regex).
+• Binary Data & File Handling.
+• Working with APIs.
+• Security & Best Practices.
+• Mini Projects (To-do, Calculator, Weather, Quiz).
+• Final Project – Full app with HTML, CSS, JS.

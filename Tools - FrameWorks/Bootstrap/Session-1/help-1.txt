@@ -1,0 +1,35 @@
+🔸 Recap of Previous Session
+• Completed the Final Project for the HTML & CSS course.
+• Focused on structuring sections (Header, Hero, About, Projects, Contact, Footer).
+• Styled with CSS variables, Flexbox/Grid, shadows, filters, and responsive design.
+• Learned how to organize a complete project with best practices.
+
+🔸 Today’s Session: Bootstrap Overview & Quick Start
+
+• What is Bootstrap?
+– A frontend toolkit for building responsive websites quickly.
+– Helps move from prototype to production with minimal setup.
+
+• Quick Start Setup
+– Create an index.html file.
+– Add HTML5 doctype (!DOCTYPE html) and meta viewport for mobile responsiveness.
+– Include Bootstrap CSS inside head:
+    https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css
+– Include Bootstrap JS bundle before closing body tag:
+    https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js
+
+• Key Bootstrap Features
+– Mobile-first responsive grid system.
+– Pre-built components (buttons, navbar, modals, forms, etc.).
+– Utility classes for spacing, colors, typography.
+– JavaScript-enabled components like dropdowns, tooltips, carousel.
+
+• Important Globals
+– Requires HTML5 doctype for styling.
+– Uses border-box for predictable sizing.
+– Includes Reboot for consistent cross-browser styling.
+
+🔸 Next Session Preview
+• Introduction to the Bootstrap Grid System.
+• Learn how rows, columns, and containers work.
+• Build responsive layouts step by step using grid classes.
