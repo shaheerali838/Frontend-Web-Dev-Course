@@ -19,10 +19,6 @@
 🔸 4. Code Structure
 • JS code is made of statements, each usually ending with a semicolon ;
 • Use comments: // single-line and /* multi-line */
-• "use strict"; enables strict mode, catching silent errors and enforcing best practices.
-• Example:
-"use strict";
-console.log("Hello, JavaScript!");
 
 🔸 5. Practical Applications
 • Show alerts: alert("Welcome to JavaScript!");
@@ -32,7 +28,6 @@ document.body.style.background = "lightblue";
 • Add interactivity: button click → show a message.
 
 🔸 6. Tips & Best Practices
-• Always start files with "use strict";
 • Keep JS in separate files instead of mixing with HTML.
 • Use clear file names (main.js, app.js, etc.).
 • Debug frequently using the browser console.
@@ -42,15 +37,12 @@ Task: Create a simple HTML file with a linked script.js.
 • In script.js, add:
 – alert("Welcome to JavaScript!");
 – console.log("This is my first JS program.");
-– Change background color of the page.
 
-Bonus Task:
-• Add a button in HTML that triggers alert("Button Clicked!") when pressed.
 
 🔸 8. Wrap-up + Q&A
 • Learned what JavaScript is and how browsers run it.
 • Practiced environment setup using console and external files.
-• Explored code structure, comments, and strict mode.
+• Explored code structure, comments.
 • Built a first interactive page with JS.
 
 🔸 Next Session Preview (Session 2)

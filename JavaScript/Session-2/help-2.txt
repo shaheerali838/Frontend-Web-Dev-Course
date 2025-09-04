@@ -1,0 +1,61 @@
+🔸 1. Recap of Session 1
+• Learned what JavaScript is and why it’s important for interactive websites.
+• Understood how browsers run JavaScript using engines like V8.
+• Set up the environment with browser console and external script.js file.
+• Explored basic code structure with statements, semicolons, and comments.
+• Built a simple first project with alerts and console logs.
+
+🔸 2. Introduction to Variables
+• Variables are used to store and reuse values in a program.
+• In modern JavaScript, we use let and const most of the time.
+• var exists but is older and has scope issues, so it is less recommended.
+• let → allows reassignment.
+• const → fixed value after assignment (cannot be reassigned).
+
+🔸 3. Data Types in JavaScript
+• Number → includes integers, floats, NaN, Infinity.
+• String → text inside quotes ("Hello", 'Hi', Template literal).
+• Boolean → true or false values.
+• Null → intentional empty value.
+• Undefined → a variable declared but not assigned.
+• Symbol → unique identifiers, often used for special object keys.
+• BigInt → represents very large numbers beyond Number limits.
+
+🔸 4. typeof Operator
+• typeof shows the type of a value.
+• Examples: typeof 42 → "number", typeof "Hi" → "string".
+• typeof null returns "object" (special JS quirk).
+• typeof undefined → "undefined".
+
+🔸 5. Practical Applications
+• Store user information (name, age, isLoggedIn).
+• Count values with numbers (likes, scores, quantity).
+• Use booleans for conditions (isDarkMode = true).
+• Use null or undefined for unknown or not-yet-assigned values.
+
+🔸 6. Tips & Best Practices
+• Use const by default, let only when the value needs to change.
+• Avoid var unless working with legacy code.
+• Use clear and descriptive variable names (userName, totalPrice).
+• Remember JavaScript is case-sensitive (age ≠ Age).
+
+🔸 7. Practice Activity
+Task: Create variables in script.js and print them.
+• A string variable for your name.
+• A number variable for your age.
+• A boolean variable for student status.
+• A null variable for “futureJob”.
+• An undefined variable for “hobby”.
+• Log all variables with console.log() and check their typeof.
+
+🔸 8. Wrap-up + Q&A
+• Learned how to declare variables with let, const, and var.
+• Explored all JavaScript data types including Number, String, Boolean, Null, Undefined, Symbol, and BigInt.
+• Practiced checking data types with typeof.
+• Built sample variables and logged them to console.
+
+🔸 Next Session Preview (Session 3)
+• Type Conversions in JavaScript.
+• Explicit conversions with String(), Number(), Boolean().
+• Implicit conversions (type coercion).
+• Common pitfalls and best practices for conversions.
