@@ -50,7 +50,7 @@ Task: Create variables in script.js and print them.
 
 🔸 8. Wrap-up + Q&A
 • Learned how to declare variables with let, const, and var.
-• Explored all JavaScript data types including Number, String, Boolean, Null, Undefined, Symbol, and BigInt.
+• Explored all JavaScript data types including Number, String, Boolean, Null, Undefined and BigInt.
 • Practiced checking data types with typeof.
 • Built sample variables and logged them to console.
 
