@@ -1,4 +1,4 @@
-it must follow the format i provided "🔸 1. Recap of Session 2
+🔸 1. Recap of Session 2
 • Learned how to declare variables using let, const, and var.
 • Understood the differences between mutable (let) and immutable (const) variables.
 • Explored JavaScript data types: Number, String, Boolean, Null, Undefined, Symbol, and BigInt.
