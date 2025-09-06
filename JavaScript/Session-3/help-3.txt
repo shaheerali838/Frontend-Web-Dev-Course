@@ -66,7 +66,6 @@
 • Nullish Coalescing (??) → returns first defined value.
 – let user = null; console.log(user ?? "Guest") → "Guest".
 • Optional Chaining (?.) → safely access nested properties.
-– user?.profile?.name → undefined if profile doesn’t exist.
 
 🔸 12. Practical Applications
 • Convert user input from string to number before calculations.
@@ -100,8 +99,9 @@ Task 2: Operators
 • Understood pitfalls of coercion and importance of strict equality.
 • Applied operators in real-world use cases like form validation and defaults.
 
-🔸 Next Session Preview (Session 5)
+🔸 Next Session Preview (Session 4)
 • Conditional Statements in JavaScript.
 • if / else and nested conditions.
 • switch statements for multiple choices.
 • Ternary operator for short conditions."
+– user?.profile?.name → undefined if profile doesn’t exist. // will understand in object
