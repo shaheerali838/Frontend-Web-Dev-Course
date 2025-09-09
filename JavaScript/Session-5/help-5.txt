@@ -1,0 +1,62 @@
+🔸 Session 5: Loops in JavaScript
+
+🔸 1. Recap of Session 4
+• Learned how conditional statements control the program flow.
+• Explored if/else for binary choices.
+• Practiced nested if/else for complex decisions.
+• Used switch for handling multiple cases cleanly.
+• Applied ternary operator for short inline conditions.
+
+🔸 2. Introduction to Loops
+• Loops allow repeating code multiple times.
+• Useful for tasks like iterating through arrays, printing sequences, or checking conditions repeatedly.
+• JavaScript offers for, while, and do…while loops.
+
+🔸 3. for Loop
+• Most commonly used loop.
+• Has three parts: initialization, condition, and increment/decrement.
+• Great for running code a known number of times.
+
+🔸 4. while Loop
+• Runs as long as a condition remains true.
+• Best when the number of iterations is unknown.
+• Needs careful condition handling to avoid infinite loops.
+
+🔸 5. do…while Loop
+• Similar to while, but runs at least once before checking the condition.
+• Useful when code should execute at least one time regardless of condition.
+
+🔸 6. Loop Control Statements
+• break → exits the loop immediately.
+• continue → skips the current iteration and moves to the next.
+• labels → advanced feature to break/continue outer loops in nested structures.
+
+🔸 7. Practical Applications
+• Printing numbers from 1 to 100.
+• Summing values in a sequence.
+• Iterating over an array of names or products.
+• Creating a simple guessing game loop.
+
+🔸 8. Tips & Best Practices
+• Always ensure conditions eventually turn false to avoid infinite loops.
+• Use descriptive loop counters (e.g., index, i, count).
+• Prefer for loops when count is known, while when uncertain.
+• Use break and continue wisely to improve clarity.
+
+🔸 9. Practice Activity
+Task 1: Print numbers 1–10 using a for loop.
+Task 2: Create a while loop that runs until a variable reaches 5.
+Task 3: Use a do…while loop to show a message at least once.
+Task 4: Build a small array and loop through it, printing each item.
+Task 5: Use break to stop when a specific value is found.
+
+🔸 10. Wrap-up + Q&A
+• Learned how to use for, while, and do…while loops.
+• Explored loop control with break, continue, and labels.
+• Practiced applying loops to sequences, arrays, and conditions.
+
+🔸 Next Session Preview (Session 6)
+• Functions in JavaScript.
+• Function declaration vs expression.
+• Arrow functions and default parameters.
+• Scope and closure basics.

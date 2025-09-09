@@ -1,0 +1,60 @@
+🔸 Session 4: Conditional Statements in JavaScript
+
+🔸 1. Recap of Session 3
+• Learned explicit type conversions using String(), Number(), and Boolean().
+• Understood implicit type coercion and common pitfalls.
+• Explored arithmetic, assignment, comparison, and logical operators.
+• Practiced advanced operators like Nullish Coalescing (??).
+
+🔸 2. Introduction to Conditional Statements
+• Conditional statements control the flow of a program based on conditions.
+• They allow execution of different code blocks depending on whether conditions are true or false.
+• Key types: if/else, switch, ternary operator.
+
+🔸 3. if / else Statement
+• The most basic conditional structure in JavaScript.
+• if checks a condition; else runs if the condition is false.
+• Commonly used for decisions like permissions or feature toggles.
+
+🔸 4. Nested if / else
+• Allows multiple levels of decision-making.
+• Useful when checking ranges (e.g., grading systems).
+• Can get complex quickly — keep readability in mind.
+
+🔸 5. switch Statement
+• Used for checking one variable against multiple values.
+• Cleaner and more readable than long chains of if/else.
+• Requires break after each case to stop execution.
+
+🔸 6. Ternary Operator (?:)
+• A shorthand for simple if/else.
+• Best for inline conditions and value assignment.
+• Not suitable for complex logic.
+
+🔸 7. Practical Applications
+• Checking if a user is old enough to vote.
+• Grading system for student scores.
+• Determining if today is a weekday or weekend.
+• Theme switching (dark or light mode).
+
+🔸 8. Tips & Best Practices
+• Use if/else for binary conditions.
+• Use switch for multiple fixed options.
+• Use ternary for short, simple conditions.
+• Keep code clean and avoid deeply nested logic.
+
+🔸 9. Practice Activity
+Task 1: Create a voting eligibility checker with if/else.
+Task 2: Build a grade system with nested if/else.
+Task 3: Use switch to print the type of day based on weekday/weekend.
+Task 4: Use ternary to check if a number is even or odd.
+
+🔸 10. Wrap-up + Q&A
+• Understood how to use if/else, nested if/else, switch, and ternary operators.
+• Learned where each type of conditional is best applied.
+• Explored real-world scenarios like login checks, grading, and theme switching.
+
+🔸 Next Session Preview (Session 5)
+• Loops in JavaScript.
+• Using for, while, and do…while loops.
+• Controlling loops with break, continue, and labels.
