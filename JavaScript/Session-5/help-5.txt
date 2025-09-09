@@ -13,7 +13,8 @@
 • JavaScript offers for, while, and do…while loops.
 
 🔸 3. for Loop
-• Most commonly used loop.
+• Most commSession-4
+only used loop.
 • Has three parts: initialization, condition, and increment/decrement.
 • Great for running code a known number of times.
 
