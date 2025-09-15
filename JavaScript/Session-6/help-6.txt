@@ -1,0 +1,62 @@
+🔸 Session 6: Functions in JavaScript
+
+🔸 1. Recap of Session 5
+• Learned about while, do…while, and for loops.
+• Practiced repeating tasks without writing code multiple times.
+• Used break to exit loops early and continue to skip steps.
+• Applied loops with numbers, strings, and conditions.
+• Previewed that later, loops will be very useful with arrays.
+
+🔸 2. Introduction to Functions
+• Functions are blocks of code that can be reused.
+• They make programs cleaner, easier to read, and avoid repetition.
+• Functions can take inputs (parameters) and return outputs (values).
+
+🔸 3. Function Declaration
+• Standard way to create a function.
+• Defined once, used many times.
+• Example idea: A function that shows a welcome message.
+
+🔸 4. Function Expressions
+• Functions can also be stored inside variables.
+• Useful when passing functions around or using them conditionally.
+• Example idea: Store a greeting function inside a variable.
+
+🔸 5. Arrow Functions (Basics)
+• A shorter syntax for writing functions.
+• Commonly used for simple tasks.
+• Example idea: A function that doubles a number.
+
+🔸 6. Default Parameters
+• Functions can have default values for parameters.
+• Example idea: A greeting function that defaults to “Guest” if no name is provided.
+
+🔸 7. Practical Applications (with what we know so far)
+• A function that prints your name and age.
+• A function that checks if a number is even or odd.
+• A function that runs a loop and prints numbers up to a given limit.
+• A function that shows a different message based on a condition (student or not).
+
+🔸 8. Tips & Best Practices
+• Always give functions clear, descriptive names.
+• Keep functions focused on one task.
+• Reuse functions instead of repeating code.
+• Use return when you need a result back from the function.
+
+🔸 9. Practice Activity
+Task 1: Create a function that prints “Hello, JavaScript!”.
+Task 2: Create a function that accepts a number and prints whether it’s even or odd.
+Task 3: Create a function that takes a name and prints “Welcome, [name]”.
+Task 4: Create a function with a loop inside that counts from 1 to 5.
+
+🔸 10. Wrap-up + Q&A
+• Learned what functions are and why they’re important.
+• Explored function declaration, expression, and arrow functions.
+• Practiced using parameters, return values, and default values.
+• Created reusable functions to simplify code.
+
+🔸 Next Session Preview (Session 7)
+• Function Expressions in more depth.
+• Advanced use of Arrow Functions.
+• Scope and closure basics.
+• How functions interact with variables.
