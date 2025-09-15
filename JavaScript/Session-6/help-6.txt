@@ -1,7 +1,7 @@
 🔸 Session 6: Functions in JavaScript
 
 🔸 1. Recap of Session 5
-• Learned about while, do…while, and for loops.
+• Learned about while, do…while, and for-loops.
 • Practiced repeating tasks without writing code multiple times.
 • Used break to exit loops early and continue to skip steps.
 • Applied loops with numbers, strings, and conditions.
