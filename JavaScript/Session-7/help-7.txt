@@ -1,0 +1,55 @@
+🔸 Session 7: Function Expressions & Arrow Functions
+
+🔸 1. Recap of Session 6
+• Learned what functions are and why they are useful.
+• Explored function declaration syntax.
+• Practiced creating simple functions with parameters and return values.
+• Introduced arrow functions as a shorter way to write functions.
+• Built functions for greetings, checking numbers, and looping.
+
+🔸 2. Function Expressions
+• A function can be stored inside a variable → this is called a function expression.
+• Function expressions allow flexibility: you can pass them around, assign them, or call them later.
+• Example idea: Store a function in a variable called greet and call it when needed.
+• Unlike declarations, expressions are not hoisted — they must be defined before use.
+
+🔸 3. Arrow Functions (Deeper Look)
+• Arrow functions are shorter and cleaner, especially for one-line operations.
+• They can take parameters and return results without using the return keyword explicitly in single-line cases.
+• Example idea: An arrow function that adds two numbers.
+• Limitation: Arrow functions do not have their own "this" (covered later in objects).
+
+🔸 4. Differences Between Function Declaration, Expression, and Arrow Function
+• Declarations → Named functions, hoisted (usable before they appear in code).
+• Expressions → Stored in variables, must be defined before use.
+• Arrows → Shorter syntax, great for small tasks, no own this binding.
+
+🔸 5. Practical Applications (based on what we know so far)
+• Create a function expression for checking if a number is positive or negative.
+• Use an arrow function to multiply two numbers.
+• Store different greetings in multiple function expressions and call them.
+• Use an arrow function inside a loop to print numbers with messages.
+
+🔸 6. Tips & Best Practices
+• Use function declarations for main reusable tasks.
+• Use expressions when you need functions as values or arguments.
+• Use arrow functions for short, simple operations.
+• Always keep naming consistent for readability.
+
+🔸 7. Practice Activity
+Task 1: Create a function expression that prints “Hello from Function Expression”.
+Task 2: Make an arrow function that squares a number.
+Task 3: Write a function expression that checks if age is above 18.
+Task 4: Use an arrow function inside a loop to print numbers 1–5.
+
+🔸 8. Wrap-up + Q&A
+• Learned about function expressions and their flexibility.
+• Understood arrow functions and their compact syntax.
+• Compared declaration, expression, and arrow functions.
+• Practiced real-world cases like checks, loops, and calculations.
+
+🔸 Next Session Preview (Session 8)
+• Special JavaScript features.
+• Code quality and style.
+• Importance of comments.
+• Debugging basics in the browser.

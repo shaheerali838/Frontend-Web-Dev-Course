@@ -1,0 +1,66 @@
+🔸 1. Recap of Session 7
+• Learned about function expressions and how they can be stored in variables.
+• Practiced using arrow functions for shorter, cleaner syntax.
+• Compared function declaration, expression, and arrow functions.
+• Understood when to use each type of function.
+• Built functions for checks, calculations, and loops.
+
+
+🔸 Session 8: JavaScript Specials & Code Quality
+
+🔸 2. JavaScript Specials (Unique Features)
+• JavaScript is very flexible but has some quirks to know:
+– Semicolons are optional, but missing them can sometimes cause issues.
+– typeof null returns "object" (a historical bug).
+– NaN is a special value meaning “Not-a-Number”, but typeof NaN is "number".
+– Variables declared with var ignore block scope (explained later).
+• JavaScript is case-sensitive: myValue and MyValue are different.
+• Some errors don’t stop code execution but can cause unexpected results.
+
+🔸 3. Code Quality & Style
+• Writing clean code makes it easier to read, debug, and share.
+• Use meaningful variable names (userName instead of u).
+• Keep functions small and focused on one task.
+• Follow consistent indentation and spacing.
+• Group related code together for better organization.
+
+🔸 4. Comments in Code
+• Use comments to explain why something is written, not just what.
+• // for single-line comments.
+• /* … */ for multi-line comments.
+• Avoid over-commenting obvious code.
+
+🔸 5. Debugging in the Browser
+• The console is your friend for testing and fixing errors.
+• console.log() shows values in the console.
+• Errors are displayed in the browser console with line numbers.
+• Step-by-step debugging tools allow pausing and checking variable values.
+
+🔸 6. Practical Applications
+• Write code with bad naming, then refactor with good variable names.
+• Use comments to explain a tricky calculation or condition.
+• Intentionally create a small mistake (like missing a semicolon) and see how debugging helps find it.
+
+🔸 7. Tips & Best Practices
+• Write code for humans first, computers second.
+• Always test small pieces of code before moving forward.
+• Follow common coding style guides (like 2 or 4 spaces indentation).
+• Use console.log to trace issues quickly.
+
+🔸 8. Practice Activity
+Task 1: Create a script with 3 variables using poor names, then rename them properly.
+Task 2: Add comments explaining why you are doing a specific check.
+Task 3: Create a small error (like wrong variable name) and debug it using the console.
+Task 4: Use console.log() to display values at different steps in a calculation.
+
+🔸 9. Wrap-up + Q&A
+• Learned about JavaScript quirks and special cases.
+• Explored the importance of clean code and style.
+• Understood how to use comments effectively.
+• Practiced debugging using the browser console.
+
+🔸 Next Session Preview (Session 9)
+• Advanced coding style and patterns.
+• Ninja code (bad practices and why to avoid them).
+• Automated testing basics with Mocha.
+• Polyfills and transpilers (how JS works across browsers).
