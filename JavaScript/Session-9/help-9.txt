@@ -1,0 +1,52 @@
+🔸 Session 9: Scope & Closure
+
+🔸 2. Introduction to Scope
+• Scope defines where variables can be accessed in your program.
+• Types of scope in JavaScript:
+– Global scope → variables accessible everywhere.
+– Local/function scope → variables available only inside a function.
+– Block scope → variables declared with let/const inside {} are limited to that block.
+• var ignores block scope and only respects function scope (important difference).
+
+🔸 3. Lexical Environment
+• Each function creates its own lexical environment when it runs.
+• A lexical environment includes the function’s variables and a reference to the outer environment.
+• Inner functions can access variables from their outer functions.
+
+🔸 4. Introduction to Closures
+• A closure is created when a function “remembers” variables from its outer scope, even after the outer function has finished running.
+• Closures allow functions to keep state between executions.
+• Example idea: A function that counts how many times it’s been called.
+
+🔸 5. Why Closures Are Important
+• Used in real-world programming for data privacy (simulating private variables).
+• Allow building factory functions that generate customized functions.
+• Critical for callbacks, event handlers, and asynchronous code.
+
+🔸 6. Practical Applications
+• Create a function that generates a “counter” function which remembers the count.
+• Create a greeting function that remembers the user’s name and always uses it.
+• Use a closure to store a secret value and access it only through another function.
+
+🔸 7. Tips & Best Practices
+• Be careful with closures inside loops → they can sometimes capture unexpected values.
+• Use closures for encapsulation and when you need to keep data safe from outside access.
+• Remember that closures can increase memory usage if not handled properly.
+
+🔸 8. Practice Activity
+Task 1: Create a function inside another function and try accessing outer variables.
+Task 2: Build a counter function using closures (each call increases the value).
+Task 3: Make a personalized greeter function using closures.
+Task 4: Experiment with block scope by declaring variables inside { } and testing access.
+
+🔸 9. Wrap-up + Q&A
+• Learned the difference between global, local, and block scope.
+• Understood how lexical environments allow functions to access outer variables.
+• Explored closures and how they “remember” variables.
+• Practiced real-world examples like counters and private data.
+
+🔸 Next Session Preview (Session 10)
+• Objects Basics.
+• Creating and modifying objects.
+• Checking properties in objects.
+• Using in operator and for…in loop.

@@ -1,0 +1,62 @@
+🔸 Session 10: Objects Basics
+
+🔸 1. Recap of Session 9
+• Learned about scope and how it controls where variables can be accessed.
+• Explored global, local/function, and block scope.
+• Understood lexical environments and how inner functions access outer variables.
+• Studied closures and how they remember variables even after the outer function ends.
+• Practiced creating counters, greeters, and private data with closures.
+
+🔸 2. Introduction to Objects
+• Objects are collections of key–value pairs.
+• Keys (also called properties) are strings or symbols, and values can be any data type (string, number, boolean, function, etc.).
+• Objects allow grouping related data and behavior together.
+• Example idea: A user object with properties like name, age, isStudent.
+
+🔸 3. Creating Objects
+• Objects can be created using curly braces { }.
+• Properties are written as key: value pairs.
+• Values can be modified, added, or removed after the object is created.
+
+🔸 4. Accessing Object Properties
+• Dot notation → object.key
+• Bracket notation → object["key"] (useful for dynamic property names).
+
+🔸 5. Checking Property Existence
+• Use the in operator to check if a property exists.
+• Example idea: "age" in user returns true if age exists.
+
+🔸 6. Iterating Over Objects
+• Use for…in loop to go through all keys in an object.
+• Each key can be used to access its value.
+
+🔸 7. Practical Applications
+• Create a student object with properties like name, age, and grade.
+• Modify an existing property (change age).
+• Add a new property (like course = "JavaScript").
+• Check if "grade" exists in the object.
+• Loop over all properties and display their values.
+
+🔸 8. Tips & Best Practices
+• Use objects to represent real-world entities (user, product, car).
+• Prefer dot notation for readability; use bracket notation when property names are dynamic.
+• Be careful with reserved keywords as property names.
+• Remember that object keys are always strings or symbols, even if written as numbers.
+
+🔸 9. Practice Activity
+Task 1: Create a car object with properties brand, model, and year.
+Task 2: Add a new property color and modify the year.
+Task 3: Use in operator to check if color exists in the car object.
+Task 4: Loop through the car object and log all keys with values.
+
+🔸 10. Wrap-up + Q&A
+• Learned what objects are and why they are useful.
+• Explored how to create, modify, and delete properties.
+• Practiced accessing properties using dot and bracket notation.
+• Used in operator and for…in loop to check and iterate properties.
+
+🔸 Next Session Preview (Session 11)
+• Object References & Copying.
+• Reference vs value.
+• Object.assign and structured cloning.
+• Introduction to garbage collection.

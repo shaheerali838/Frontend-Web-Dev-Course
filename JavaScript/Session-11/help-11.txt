@@ -1,0 +1,64 @@
+🔸 Session 11: Object References & Copying
+
+🔸 1. Recap of Session 10
+• Learned that objects store data as key–value pairs.
+• Practiced creating and modifying objects using curly braces.
+• Accessed properties using dot and bracket notation.
+• Used the in operator to check property existence.
+• Used for…in loop to iterate through object keys and values.
+
+🔸 2. Understanding Object References
+• In JavaScript, objects are stored and assigned by reference, not by value.
+• This means when you assign one object to another variable, both variables point to the same object in memory.
+• Changing one will affect the other.
+• Example idea: user and admin pointing to the same data object.
+
+🔸 3. Comparing Objects
+• Two objects are equal only if they reference the same memory location.
+• Even if two objects have identical properties, they are not equal unless they are the exact same reference.
+
+🔸 4. Copying Objects
+• A direct assignment (obj2 = obj1) does not create a copy — it links both to the same object.
+• To actually copy an object, you need a method:
+– Shallow copy → Object.assign({}, obj)
+– Deep copy → structuredClone(obj)
+
+🔸 5. Shallow vs Deep Copy
+• Shallow copy only duplicates top-level properties.
+• Deep copy duplicates everything, including nested objects.
+• Object.assign() creates shallow copies, while structuredClone() handles full copies safely.
+
+🔸 6. Garbage Collection (Introduction)
+• JavaScript automatically manages memory.
+• When an object is no longer reachable (no references left), it gets removed from memory.
+• This process is handled by the garbage collector in the JS engine.
+
+🔸 7. Practical Applications
+• Create an object and assign it to another variable — notice how changes affect both.
+• Copy an object using Object.assign and modify the copy without affecting the original.
+• Use structuredClone for deep copying nested objects.
+• Experiment by removing references and checking how memory clears automatically.
+
+🔸 8. Tips & Best Practices
+• Always be aware when you’re working with references.
+• Use structuredClone() for safe deep copies of objects.
+• Avoid unintentional linking between objects by copying them correctly.
+• Rely on the garbage collector — no need to manually delete memory.
+
+🔸 9. Practice Activity
+Task 1: Create an object user and assign it to another variable admin.
+Task 2: Change a property in admin and observe it in user.
+Task 3: Make a copy of user using Object.assign and edit it independently.
+Task 4: Create a nested object and copy it using structuredClone to preserve structure.
+
+🔸 10. Wrap-up + Q&A
+• Learned how objects are stored by reference in JavaScript.
+• Understood the difference between shallow and deep copies.
+• Practiced copying and modifying objects without affecting originals.
+• Explored how garbage collection automatically cleans unused data.
+
+🔸 Next Session Preview (Session 12)
+• Symbols & Object Properties.
+• Using symbols as unique keys.
+• Hidden properties and how symbols protect them.
+• Practical uses of symbols in real-world objects.
