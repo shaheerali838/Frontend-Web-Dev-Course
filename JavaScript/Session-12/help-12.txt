@@ -1,0 +1,58 @@
+🔸 Session 12 – Symbols & Object Properties
+
+🔸 1. Recap of Session 11
+• Reviewed how objects store and manage data in JavaScript.
+• Understood how object references work and how copying affects memory.
+• Practiced shallow and deep copying using Object.assign() and structuredClone().
+• Discussed garbage collection and how JavaScript automatically frees unused memory.
+
+🔸 2. Introduction to Symbols
+• Symbols are unique and immutable values used as object property keys.
+• Created using Symbol("description").
+• Every Symbol is unique, even with the same description.
+• Commonly used to define hidden or special object properties that won’t conflict with other keys.
+• Symbol keys do not appear in regular loops like for…in or Object.keys().
+
+🔸 3. Global Symbols
+• The global symbol registry allows reuse of symbols with Symbol.for("name").
+• If a symbol with the same key already exists, Symbol.for() returns the same one.
+• Symbol.keyFor() retrieves the key for a global symbol.
+• Useful for cross-file or module-wide constants.
+
+🔸 4. Hidden Object Properties
+• Symbol properties are not enumerable — they remain hidden from standard iterations.
+• They can be accessed directly using Object.getOwnPropertySymbols(object).
+• Hidden properties are ideal for internal logic or meta-data.
+• Prevents accidental overwriting of properties by other code.
+
+🔸 5. Practical Applications
+• Use symbols for creating non-colliding property keys in shared codebases.
+• Use them to store internal metadata or tracking IDs in objects.
+• Combine symbols with methods for defining internal functionality safely.
+
+🔸 6. Tips & Best Practices
+• Use symbols when you want truly private-like properties in objects.
+• Prefer Symbol.for() when you need a shared global symbol.
+• Avoid using symbols for data you need to serialize (they’re skipped in JSON).
+• Always keep symbol keys documented, as they’re not visible in iterations.
+
+🔸 7. Practice Activity
+Task: Create an object with both normal and symbol properties.
+• Add a symbol property for internal tracking (like _id).
+• Try logging the object keys — notice that symbol keys are hidden.
+• Retrieve the symbol keys using Object.getOwnPropertySymbols().
+
+Bonus Task:
+• Create a global symbol with Symbol.for("sharedID") and access it in two different objects.
+
+🔸 8. Wrap-up + Q&A
+• Learned what symbols are and how they differ from normal keys.
+• Understood how to create and use global symbols.
+• Practiced hiding and retrieving symbol-based properties.
+• Discussed best practices for keeping data safe and conflict-free in large projects.
+
+🔸 Next Session Preview (Session 13)
+• Object Methods and the this keyword.
+• Adding methods to objects for reusable functionality.
+• Understanding how this changes depending on how a function is called.
+• Practical applications and best practices for managing context.
