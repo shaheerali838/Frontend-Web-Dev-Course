@@ -1,0 +1,59 @@
+🔸 1. Recap of Session 12
+• Learned about Symbols as unique and immutable property keys.
+• Understood how to create and use Symbol() and Symbol.for() for hidden or shared object properties.
+• Explored how symbols prevent property name conflicts.
+• Practiced accessing symbol properties using Object.getOwnPropertySymbols().
+• Discussed when to use symbols for data privacy and API-level design.
+
+🔸 2. Introduction to Object Methods
+• Object methods are functions stored as properties inside an object.
+• They allow objects to perform actions and work with their own data.
+• Declared directly inside objects for cleaner syntax and better structure.
+• Example concept: a user object with a greet method uses its own data.
+• Methods are essential for creating reusable, organized code in JavaScript.
+
+🔸 3. Understanding the “this” Keyword
+• The “this” keyword refers to the object that owns the method being executed.
+• Inside a method, “this” gives access to the object’s properties and methods.
+• The value of “this” depends on how a function is called, not where it is written.
+• In regular functions, “this” may refer to the global object or be undefined in strict mode.
+• Arrow functions don’t have their own “this” — they use the one from the outer scope.
+
+🔸 4. Behavior of “this” in Different Contexts
+• In object methods: “this” → the object itself.
+• In regular functions: “this” → undefined in strict mode or global object otherwise.
+• In DOM event handlers: “this” → the HTML element that triggered the event.
+• In arrow functions: “this” → inherited from the surrounding scope.
+• “this” changes when methods are copied or used as callbacks — must be handled carefully.
+
+🔸 5. Practical Applications
+• Creating user, car, or product objects with internal methods.
+• Using “this” to access or update properties within the same object.
+• Demonstrating how “this” changes when methods are reused across objects.
+• Building dynamic methods like increaseSpeed(), login(), or toggleStatus() using “this”.
+
+🔸 6. Tips & Best Practices
+• Use “this” to make object methods flexible and dynamic.
+• Avoid using arrow functions for object methods that rely on “this”.
+• Keep your objects structured and readable with meaningful method names.
+• Be cautious when using “this” inside nested or asynchronous functions.
+
+🔸 7. Practice Activity
+Task: Build an “Object Methods Showcase”
+• Create an object called car with brand and speed properties.
+• Add methods:
+– start(): logs “Car started”.
+– drive(): increases speed and logs the updated value using “this”.
+• Add another object user and test how “this” behaves when a method is reused.
+
+🔸 8. Wrap-up + Q&A
+• Learned how to create and use object methods effectively.
+• Explored how “this” behaves in different execution contexts.
+• Practiced maintaining correct “this” references with methods and callbacks.
+• Discussed best practices for avoiding confusion with arrow functions and context.
+
+🔸 Next Session Preview (Session 14)
+• Constructor Functions and Classes.
+• Using constructor functions to create multiple similar objects.
+• The role of the “new” keyword in object creation.
+• Introduction to ES6 classes and inheritance in modern JavaScript.
