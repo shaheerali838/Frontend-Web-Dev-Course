@@ -1,0 +1,71 @@
+🔸 1. Recap of Session 13
+• Reviewed object methods and how “this” behaves in different contexts.
+• Learned how to define and call methods inside objects.
+• Understood how method shorthand improves readability.
+• Practiced binding functions to specific objects for reliable behavior.
+• Discussed common mistakes when using “this” and how to avoid them.
+
+🔸 2. Constructor Functions
+• Constructor functions are used to create multiple similar objects easily.
+• They act like blueprints for creating new objects.
+• Use a capitalized function name (for example, Person or Car).
+• When called with “new”, they automatically create a new object and set “this” to that object.
+• Properties and methods are defined inside the constructor for each instance.
+• Helps organize code and follow an object-oriented pattern.
+
+🔸 3. The “new” Operator
+• The “new” operator performs three steps:
+– Creates an empty object.
+– Sets the function’s “this” to refer to that object.
+– Returns the newly created object automatically.
+• Allows easy creation of multiple instances from one template.
+• Using “new” ensures each instance has its own separate data.
+
+🔸 4. Classes in JavaScript
+• Classes are a cleaner, modern way to write constructor-based code.
+• Introduced in ES6 as syntactic sugar for constructor functions.
+• A class includes a constructor method and can also define other methods inside it.
+• The “new” keyword is still required to create instances of a class.
+• Classes make code easier to read, maintain, and scale.
+
+🔸 5. Class Inheritance
+• Inheritance allows one class to extend another class.
+• The “extends” keyword is used to inherit from another class.
+• Child classes gain access to parent methods and properties automatically.
+• The “super” keyword is used to call the parent class constructor or methods.
+• Encourages reusability and helps build hierarchies (for example, Animal → Dog → Labrador).
+
+🔸 6. Practical Applications
+• Use constructors or classes to create structured data models like users, products, or cars.
+• Add shared methods that all instances can use.
+• Use inheritance when multiple related classes share similar logic.
+• Ideal for organizing real-world entities in projects (users, tasks, messages, etc.).
+
+🔸 7. Tips & Best Practices
+• Always capitalize constructor and class names for clarity.
+• Avoid mixing constructor syntax with class syntax in the same codebase.
+• Keep each class focused on one responsibility.
+• Use inheritance only when it makes sense — prefer composition otherwise.
+• Keep methods short and clear for better readability.
+
+🔸 8. Practice Activity
+Task: Create a “Profile Generator” structure.
+• Define a class for User with name, email, and role.
+• Create a subclass for Admin that extends User with an extra property like access level.
+• Create several instances to simulate a small user database.
+
+Bonus Task:
+• Extend the Admin class to include a method for updating user roles.
+
+🔸 9. Wrap-up + Q&A
+• Learned the concept of constructor functions and their relationship with “new”.
+• Practiced writing and understanding ES6 classes.
+• Explored how inheritance helps share logic between related objects.
+• Discussed best practices for organizing object-oriented code.
+
+🔸 Next Session Preview (Session 15)
+• Optional Chaining & Advanced Objects.
+• Understanding nested properties and safe access.
+• Revisiting nullish coalescing (??) for defaults.
+• Deep object structures and dynamic property references.
+• Advanced object property management and handling.
