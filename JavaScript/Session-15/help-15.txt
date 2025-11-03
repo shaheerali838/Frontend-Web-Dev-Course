@@ -1,0 +1,71 @@
+🔸 1. Recap of Session 14
+• Reviewed constructor functions and their role as object blueprints.
+• Learned how the “new” operator creates and returns new object instances.
+• Explored ES6 classes as a modern, cleaner alternative to constructors.
+• Practiced class inheritance using “extends” and “super” for reusability.
+
+🔸 2. Understanding Optional Chaining
+• Optional chaining provides a safe way to access deeply nested properties without errors.
+• It uses the ?. operator to stop the evaluation if a property doesn’t exist.
+• Prevents “Cannot read property of undefined” errors.
+• Works with object properties, arrays, and functions.
+• Example: user?.profile?.address safely checks nested data.
+• Useful when working with API data or dynamic objects.
+
+🔸 3. Nullish Coalescing Operator (??)
+• The nullish coalescing operator (??) returns the right-hand value only if the left-hand value is null or undefined.
+• It helps provide default values without overwriting falsy ones like 0 or “”.
+• Example: const name = userName ?? “Guest”;
+• Unlike || (logical OR), it doesn’t treat 0 or false as nullish values.
+• Best used with optional chaining for robust fallback logic.
+
+🔸 4. Advanced Object Concepts
+• Property descriptors define detailed control over properties (writable, enumerable, configurable).
+• Object.freeze() makes an object completely immutable.
+• Object.seal() prevents adding or removing properties but allows changes to existing ones.
+• Object.preventExtensions() disallows adding new properties entirely.
+• Object.defineProperty() allows custom property behavior, such as hidden or read-only values.
+• These tools give developers control over data integrity and behavior in large applications.
+
+🔸 5. Working with Dynamic Properties
+• JavaScript allows accessing properties dynamically using brackets (obj[propName]).
+• Useful when keys come from user input, database fields, or variable data.
+• Dynamic access also supports optional chaining (obj?.[keyName]).
+• Enables flexibility when dealing with unpredictable structures or APIs.
+
+🔸 6. Practical Applications
+• Safely access user profiles, product info, or API data with optional chaining.
+• Provide default fallbacks for missing data using ?? operator.
+• Lock down configuration objects with Object.freeze() to prevent accidental changes.
+• Create read-only constants or metadata using Object.defineProperty().
+• Handle dynamic or optional fields in real-world data structures.
+
+🔸 7. Tips & Best Practices
+• Always combine optional chaining and nullish coalescing for safe and readable code.
+• Avoid using too much nesting — simplify data when possible.
+• Use Object.freeze() only for final data; avoid in frequently updated objects.
+• Don’t overuse Object.defineProperty() unless you need precise property control.
+• Keep data access consistent throughout your codebase for maintainability.
+
+🔸 8. Practice Activity
+Task: Build a “Safe Data Viewer”.
+• Create an object representing a user with nested properties like profile, contact, and address.
+• Use optional chaining to safely access deep properties.
+• Apply nullish coalescing to show default messages when data is missing.
+• Lock the object using Object.freeze().
+
+Bonus Task:
+• Define a read-only metadata property using Object.defineProperty().
+
+🔸 9. Wrap-up + Q&A
+• Learned how optional chaining (?.) simplifies nested property access.
+• Understood nullish coalescing (??) for safe default handling.
+• Explored advanced object controls for freezing, sealing, and defining properties.
+• Built a practical example for handling uncertain or complex data safely.
+
+🔸 Next Session Preview (Session 16)
+• Arrays & Array Methods.
+• Creating, accessing, and modifying arrays.
+• Working with map(), filter(), reduce(), and find().
+• Understanding iteration and higher-order functions.
+• Building a mini project with array manipulation.
