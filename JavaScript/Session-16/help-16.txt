@@ -1,0 +1,73 @@
+🔸 1. Recap of Session 15
+• Learned how optional chaining (?.) safely accesses nested object properties.
+• Understood nullish coalescing (??) to provide default values only when data is null or undefined.
+• Explored advanced object controls such as Object.freeze, Object.seal, and Object.defineProperty.
+• Practiced dynamic property access for flexible data handling.
+• Built a Safe Data Viewer to visualize nested objects without errors.
+
+🔸 2. Introduction to Arrays
+• Arrays are ordered collections used to store multiple values in a single variable.
+• Values are stored using index numbers starting from zero.
+• Arrays can store any type of data (numbers, strings, booleans, objects).
+• Useful for managing lists such as products, users, tasks, or messages.
+• Arrays are dynamic — elements can be added, removed, or modified anytime.
+
+🔸 3. Accessing & Modifying Array Elements
+• Elements are accessed using their index (first element → index 0).
+• Values can be replaced, updated, or removed from specific positions.
+• Arrays have a built-in length property to know how many items exist.
+• Indexing allows efficient looping, searching, and filtering of data.
+
+🔸 4. Common Array Methods
+• push → adds elements to the end of the array.
+• pop → removes the last element.
+• shift → removes the first element.
+• unshift → adds a new element to the beginning.
+• indexOf / includes → checks whether an element exists in the array.
+• slice → copies a portion of the array without modifying it.
+• splice → adds, removes, or replaces elements in the array.
+
+🔸 5. Higher-Order Array Methods
+• reduce → combines all elements into a single value (sum, average, etc.).
+• forEach → runs a function on each element (used for iteration, no return value).
+• map → transforms each element and returns a new array.
+• filter → returns elements that match a condition.
+• find → returns the first element matching a condition.
+• These methods improve readability and reduce manual looping.
+
+🔸 6. Practical Applications
+• Storing and updating lists (tasks, users, products, notifications).
+• Filtering search results (e.g., show only "completed tasks").
+• Mapping arrays to generate UI elements dynamically.
+• Reducing numerical data (e.g., total cart price).
+• Finding users or products based on matching criteria.
+
+🔸 7. Tips & Best Practices
+• Prefer map, filter, reduce for cleaner logic instead of manual loops.
+• Use const when declaring arrays — contents can change even if the reference cannot.
+• Avoid modifying the original array when unnecessary — use slice for safer copies.
+• Use descriptive variable names (taskList, productItems, studentScores).
+
+🔸 8. Practice Activity
+Task: Build an “Array Data Processor”.
+• Create an array of tasks or students.
+• Add new values using push or unshift.
+• Remove values using pop or splice.
+• Use map to transform values (example: convert names to uppercase).
+• Use filter to show only values matching a condition (example: show only completed tasks).
+• Use reduce to summarize values (example: total score or price).
+
+Bonus Task:
+• Create a mini "Search Filter" feature using find or includes.
+
+🔸 9. Wrap-up + Q&A
+• Learned how to create, access, and update Arrays.
+• Practiced push, pop, shift, unshift, slice, splice.
+• Explored map, filter, reduce, find, and forEach for powerful data handling.
+• Built real-world list manipulation and filtering logic.
+
+🔸 Next Session Preview (Session 17)
+• Destructuring & Spread/Rest Operators.
+• Extract values easily from arrays and objects.
+• Combine or expand arrays and objects using spread.
+• Gather remaining elements using rest parameters.
