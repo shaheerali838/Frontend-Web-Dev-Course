@@ -1,0 +1,73 @@
+🔸 1. Recap of Session 16
+• Learned how arrays store multiple values in a single variable.
+• Explored basic array operations using push, pop, shift, unshift, slice, and splice.
+• Practiced higher-order methods like map, filter, reduce, find, and forEach.
+• Built an Array Data Processor that performed transformations, searches, and calculations.
+• Understood best practices for immutability and cleaner array handling.
+
+🔸 2. Introduction to Destructuring
+• Destructuring allows unpacking values from arrays or properties from objects into individual variables.
+• It simplifies code by avoiding repetitive property or index access.
+• Can be used in function parameters to handle structured data easily.
+• Commonly used for cleaner syntax when working with APIs, forms, or configurations.
+
+🔸 3. Array Destructuring
+• Extracts values from arrays based on position.
+• Unused values can be skipped easily using commas.
+• Default values can be assigned for missing items.
+• Useful for assigning multiple values at once, such as coordinates, colors, or settings.
+
+🔸 4. Object Destructuring
+• Extracts values from objects based on property names.
+• Variables must match the property names unless renamed manually.
+• Enables shorthand assignments and cleaner function arguments.
+• Widely used in modern JavaScript frameworks for handling data objects.
+
+🔸 5. Spread Operator (...)
+• Expands arrays or objects into individual elements.
+• Useful for copying or merging arrays and objects without mutation.
+• Allows combining multiple data sets or passing array items as individual arguments.
+• Simplifies working with dynamic or unknown-length data.
+
+🔸 6. Rest Operator (...)
+• Collects remaining elements into an array or object after destructuring.
+• Commonly used in functions to accept variable numbers of arguments.
+• Helps separate fixed and variable data within a structure.
+• Essential for flexible and reusable function design.
+
+🔸 7. Practical Applications
+• Extract data from API responses using object destructuring.
+• Merge multiple arrays of items or users with spread.
+• Collect remaining values or arguments in functions using rest.
+• Copy and modify existing objects without affecting the original.
+• Handle configuration or user data dynamically in projects.
+
+🔸 8. Tips & Best Practices
+• Use destructuring for readability and maintainability.
+• Prefer spread for immutability instead of directly modifying arrays or objects.
+• Avoid excessive nesting — destructure only what’s needed.
+• Use default values in destructuring to prevent undefined results.
+• Combine destructuring with array methods for cleaner data manipulation.
+
+🔸 9. Practice Activity
+Task: Build a “User Info Extractor”.
+• Create an object with user details (name, age, country).
+• Use object destructuring to extract and display data.
+• Create an array of scores or hobbies.
+• Use array destructuring and rest to extract top items and remaining ones.
+• Combine two arrays using the spread operator to make a complete list.
+
+Bonus Task:
+• Clone and modify an object using the spread operator while keeping the original intact.
+
+🔸 10. Wrap-up + Q&A
+• Learned how destructuring simplifies extracting data from arrays and objects.
+• Explored spread and rest operators for flexible, reusable code.
+• Practiced real-world use cases like merging data, cloning, and function flexibility.
+• Improved understanding of cleaner and more modern JavaScript syntax.
+
+🔸 Next Session Preview (Session 18)
+• Date & Time in JavaScript.
+• Working with the Date object.
+• Formatting, comparing, and manipulating dates.
+• Building small date-based projects like countdown timers or clocks.
