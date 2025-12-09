@@ -1,0 +1,76 @@
+🔸 1. Recap of Session 18
+• Explored promise creation with resolve and reject functions.
+• Practiced promise chaining for sequential async operations.
+• Built promise chains to simulate real-world workflows like user authentication.
+• Understood error handling with .catch() and cleanup with .finally().
+
+🔸 2. Introduction to Async/Await
+• Async/await provides syntactic sugar over promises for cleaner asynchronous code.
+• Makes asynchronous code look and behave like synchronous code.
+• Built on top of promises but with more readable syntax.
+• Essential for modern JavaScript development and API handling.
+
+🔸 3. Async Functions Basics
+• Declared with the async keyword before function declaration.
+• Always returns a promise regardless of what's inside.
+• Can use await keyword to pause execution until promise settles.
+• Makes error handling more intuitive with try/catch blocks.
+• Works with all promise-based APIs and libraries.
+
+🔸 4. Await Operator
+• Used only inside async functions to wait for promise resolution.
+• Pauses function execution until promise is fulfilled or rejected.
+• Returns the resolved value of the promise when successful.
+• Throws an error when promise is rejected, requiring try/catch.
+• Can await any thenable object or promise instance.
+
+🔸 5. Error Handling with Try/Catch
+• Use try block to wrap await expressions that might reject.
+• Catch block handles errors from any await in the try block.
+• Provides synchronous-style error handling for async operations.
+• Multiple await operations can share single error handler.
+• Finally block works the same as in synchronous code.
+
+🔸 6. Converting Promise Chains to Async/Await
+• Replace .then() chains with sequential await statements.
+• Convert .catch() blocks to try/catch error handling.
+• Maintain same functionality with improved readability.
+• Handle multiple dependent async operations cleanly.
+• Simplify complex async logic with linear code flow.
+
+🔸 7. Practical Applications
+• Fetch API data with clean sequential error handling.
+• Process multiple dependent database operations.
+• Implement complex user workflows with clear code structure.
+• Handle file uploads with progress and validation steps.
+• Create readable API client libraries and service layers.
+
+🔸 8. Tips & Best Practices
+• Always use try/catch with await to handle rejections.
+• Keep async functions focused on single responsibilities.
+• Use descriptive variable names for awaited values.
+• Avoid overusing await when operations can run in parallel.
+• Consider using Promise.all() for independent async operations.
+
+🔸 9. Practice Activity
+Task: Convert Promise Chains to Async/Await.
+• Take previous session's promise chain and rewrite using async/await.
+• Create async function that fetches user data and posts sequentially.
+• Implement error handling with try/catch for network failures.
+• Build a mock API caller with retry logic using async/await.
+• Create utility functions for common async operations.
+
+Bonus Task:
+• Build a weather app simulator that fetches location then weather data using async/await.
+
+🔸 10. Wrap-up + Q&A
+• Learned how async/await simplifies promise-based code.
+• Explored error handling patterns with try/catch blocks.
+• Practiced converting promise chains to async/await syntax.
+• Understood when to use async/await versus promise chains.
+
+🔸 Next Session Preview (Session 20)
+• Promise API methods: Promise.all(), Promise.race(), Promise.allSettled().
+• Running multiple async operations in parallel.
+• Handling multiple promise outcomes simultaneously.
+• Real-world scenarios for concurrent async operations.
